@@ -1,0 +1,818 @@
+﻿[2016.02.25-23.03.35:057][  0]Log file open, 02/26/16 01:03:35
+[2016.02.25-23.03.35:057][  0]LogInit:Display: Running engine for game: TPS_Arena
+[2016.02.25-23.03.35:057][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.25-23.03.35:057][  0]LogInit:Display: RandInit(664961413) SRandInit(664961415).
+[2016.02.25-23.03.35:057][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.25-23.03.35:057][  0]LogStats: Stats thread started at 0.082466
+[2016.02.25-23.03.35:057][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-23.03.35:057][  0]LogInit: API Version: 2758231
+[2016.02.25-23.03.35:057][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.25-23.03.35:057][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.25-23.03.35:057][  0]LogInit: Build Configuration: Development
+[2016.02.25-23.03.35:057][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.25-23.03.35:057][  0]LogInit: Command line:  
+[2016.02.25-23.03.35:057][  0]LogInit: Base directory: D:/Engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.25-23.03.35:057][  0]LogInit: Rocket: 1
+[2016.02.25-23.03.35:066][  0]LogInit: Using libcurl 7.41.0
+[2016.02.25-23.03.35:066][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.25-23.03.35:066][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.25-23.03.35:066][  0]LogInit:  - other features:
+[2016.02.25-23.03.35:066][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.25-23.03.35:066][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.25-23.03.35:066][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.25-23.03.35:066][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.25-23.03.35:066][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.25-23.03.35:067][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.25-23.03.35:067][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.25-23.03.35:067][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.25-23.03.35:067][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.25-23.03.35:067][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.25-23.03.35:077][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.25-23.03.35:086][  0]LogInit: Object subsystem initialized
+[2016.02.25-23.03.35:087][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-23.03.35:087][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.25-23.03.35:099][  0]LogInit: Computer: MIHAI-PC
+[2016.02.25-23.03.35:099][  0]LogInit: User: Mihai
+[2016.02.25-23.03.35:099][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.25-23.03.35:099][  0]LogInit: High frequency timer resolution =2.732460 MHz
+[2016.02.25-23.03.35:099][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2016.02.25-23.03.35:099][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-23.03.35:099][  0]LogMemory: Process Physical Memory: 56.98 MB used, 56.98 MB peak
+[2016.02.25-23.03.35:099][  0]LogMemory: Process Virtual Memory: 58.91 MB used, 58.91 MB peak
+[2016.02.25-23.03.35:099][  0]LogMemory: Physical Memory: 4976.61 MB used, 10231.49 MB total
+[2016.02.25-23.03.35:099][  0]LogMemory: Virtual Memory: 364.77 MB used, 8388608.00 MB total
+[2016.02.25-23.03.35:146][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.25-23.03.35:694][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.02.25-23.03.35:695][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4859MB of shared system memory, 2 output[s]
+[2016.02.25-23.03.35:695][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.25-23.03.35:713][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.25-23.03.35:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.25-23.03.35:726][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.25-23.03.35:744][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Projects/Unreal/TPS_Arena/Intermediate/Shaders/WorkingDirectory/7796/).
+[2016.02.25-23.03.35:744][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mihai/AppData/Local/Temp/UnrealShaderWorkingDir/F85BC9324D8FF46C0257DAA70FAC8C35/'.
+[2016.02.25-23.03.35:744][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.25-23.03.36:705][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.25-23.03.36:710][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.25-23.03.36:716][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.25-23.03.36:722][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.25-23.03.36:727][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.25-23.03.36:730][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.25-23.03.36:735][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.25-23.03.36:738][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.25-23.03.36:742][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.25-23.03.36:745][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.25-23.03.36:749][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.25-23.03.36:756][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.25-23.03.36:756][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.25-23.03.36:756][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.25-23.03.36:774][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.25-23.03.36:777][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.25-23.03.36:780][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.25-23.03.36:783][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.25-23.03.36:783][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.25-23.03.36:880][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.25-23.03.36:942][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-23.03.36:942][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.25-23.03.36:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.25-23.03.36:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.25-23.03.36:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.25-23.03.36:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.25-23.03.37:027][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.25-23.03.37:039][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mihai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.25-23.03.37:254][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-23.03.37:255][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.25-23.03.37:297][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.25-23.03.37:297][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.25-23.03.37:705][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.25-23.03.38:629][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2016.02.25-23.03.38:648][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.25-23.03.38:924][  0]SourceControl: Info Source control is disabled
+[2016.02.25-23.03.39:030][  0]SourceControl: Info Source control is disabled
+[2016.02.25-23.03.39:042][  0]SourceControl: Info Source control is disabled
+[2016.02.25-23.03.39:055][  0]SourceControl: Info Source control is disabled
+[2016.02.25-23.03.39:339][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.02.25-23.03.39:339][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.02.25-23.03.39:407][  0]LogEngine: Initializing Engine...
+[2016.02.25-23.03.39:408][  0]OCULUS: Info: 02/25/16 23:03:39: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_8.dll
+
+[2016.02.25-23.03.39:409][  0]OCULUS: Info: 02/25/16 23:03:39: [IPC] Call Stats for SetInitialState : x1: C2S=19.0305, S2C=4.39165, Runtime=51.9678 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.02.25-23.03.39:409][  0]OCULUS: Info: 02/25/16 23:03:39: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=8.05135, S2C=2.19582, Runtime=1.09791 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.02.25-23.03.39:419][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.25-23.03.39:573][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.25-23.03.39:583][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-23.03.39:607][  0]LogInit: FAudioDevice initialized.
+[2016.02.25-23.03.39:636][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-23.03.39:647][  0]LogInit: Texture streaming: Enabled
+[2016.02.25-23.03.39:653][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.25-23.03.39:653][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-23.03.39:654][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3cb8ffe24e727d20e488f6a0703d071e|cfb1085945c1478380d1e808dae35820|2cf12e5c-4aaa-4bd5-bb24-20c657141085
+[2016.02.25-23.03.39:654][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.25-23.03.39:665][  0]LogInit: Transaction tracking system initialized
+[2016.02.25-23.03.39:699][  0]BlueprintLog: New page: Editor Load
+[2016.02.25-23.03.39:794][  0]LocalizationService: Info Localization service is disabled
+[2016.02.25-23.03.39:864][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.25-23.03.39:865][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.25-23.03.39:865][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.02.25-23.03.39:878][  0]LogConsoleResponse:Display: 
+[2016.02.25-23.03.40:010][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.25-23.03.40:075][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/' took 0.02s
+[2016.02.25-23.03.40:075][  0]SourceControl: Info Source control is disabled
+[2016.02.25-23.03.40:075][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Levels/characterTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-23.03.40:076][  0]LightingResults: New page: Lighting Build
+[2016.02.25-23.03.40:079][  0]MapCheck: New page: Map Check
+[2016.02.25-23.03.40:079][  0]LightingResults: New page: Lighting Build
+[2016.02.25-23.03.40:093][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000226EEAC0
+[2016.02.25-23.03.40:476][  0]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-23.03.40:484][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-23.03.40:484][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-23.03.40:537][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.598ms to complete.
+[2016.02.25-23.03.40:537][  0]LogFileHelpers: Loading map 'characterTesting' took 0.462
+[2016.02.25-23.03.40:660][  0]LogCollectionManager: Loaded 0 collections in 0.002396 seconds
+[2016.02.25-23.03.40:700][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Saved/Collections/' took 0.01s
+[2016.02.25-23.03.40:700][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Developers/Mihai/Collections/' took 0.01s
+[2016.02.25-23.03.40:700][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Collections/' took 0.01s
+[2016.02.25-23.03.40:700][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.25-23.03.40:710][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 1908 classes and 344 folders.
+[2016.02.25-23.03.40:718][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.25-23.03.40:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.25-23.03.40:773][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.25-23.03.40:794][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.25-23.03.40:799][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.25-23.03.40:820][  0]LogLoad: Full Startup: 6.26 seconds (BP compile: 0.05 seconds)
+[2016.02.25-23.03.40:829][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.02.25-23.03.40:889][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.25-23.03.41:076][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.25-23.03.41:315][  3]LogAssetRegistry: Asset discovery search completed in 2.6966 seconds
+[2016.02.25-23.03.41:315][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.25-23.03.41:315][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.02.25-23.03.44:680][264]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.25-23.03.45:241][264]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.02.25-23.04.50:270][475]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.04.50:508][475]BlueprintEditorCompileResults: Info [0075.95] Compile of Weapon_Master_BP successful! [in 237 ms]
+[2016.02.25-23.04.51:094][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.04.51:268][503]LogSavePackage: Save=137.049393ms
+[2016.02.25-23.04.51:269][503]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP396E32314D18E20614AA7092C449B787.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.04.51:271][503]LogSavePackage: Total save time: 175.794337ms
+[2016.02.25-23.04.51:271][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.04.53:162][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-23.04.53:163][620]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 3:04:53 AM)
+[2016.02.25-23.04.53:163][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-23.04.53:170][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007254s)
+[2016.02.25-23.04.53:171][620]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-23.04.53:171][620]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2016.02.25-23.04.53:171][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008496s)
+[2016.02.25-23.04.53:206][620]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-23.04.53:213][620]LogInit: FAudioDevice initialized.
+[2016.02.25-23.04.53:306][620]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-23.04.53:310][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-01.04.53
+[2016.02.25-23.04.53:310][620]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.04.53:310][620]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.04.53:310][620]LogWorld: Bringing up level for play took: 0.002888
+[2016.02.25-23.04.53:315][620]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 1.06
+[2016.02.25-23.04.54:983][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AE539C0
+[2016.02.25-23.05.12:428][728]LogEditorTransaction: Undo Edit Generate Overlap Events
+[2016.02.25-23.05.12:841][749]Cmd: TRANSACTION UNDO
+[2016.02.25-23.05.12:841][749]LogEditorTransaction: Undo Edit Enable Gravity
+[2016.02.25-23.05.13:488][782]Cmd: TRANSACTION UNDO
+[2016.02.25-23.05.13:488][782]LogEditorTransaction: Undo Remove Components
+[2016.02.25-23.05.22:248][171]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.05.22:290][171]LogWorld: --- Actors Currently in /Engine/Transient.World_3:PersistentLevel ---
+[2016.02.25-23.05.22:290][171]LogWorld:   /Engine/Transient.World_3:PersistentLevel.WorldSettings
+[2016.02.25-23.05.22:290][171]LogWorld:   /Engine/Transient.World_3:PersistentLevel.Brush_4
+[2016.02.25-23.05.22:290][171]LogWorld:   /Engine/Transient.World_3:PersistentLevel.DefaultPhysicsVolume_5
+[2016.02.25-23.05.22:290][171]LogWorld:   /Engine/Transient.World_3:PersistentLevel.ParticleEventManager_3
+[2016.02.25-23.05.22:290][171]LogWorld:   NONE
+[2016.02.25-23.05.22:290][171]LogWorld:   NONE
+[2016.02.25-23.05.22:290][171]LogWorld:   /Engine/Transient.World_3:PersistentLevel.Weapon_Master_BP_C_1
+[2016.02.25-23.05.35:472][171]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1234]
+Could not remove actor /Engine/Transient.World_3:PersistentLevel.Weapon_Master_BP_C_0 from world (check level is /Engine/Transient.World_3:PersistentLevel)
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-Engine.dll!UWorld::RemoveActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\world.cpp:1234]
+UE4Editor-Engine.dll!UWorld::DestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:621]
+UE4Editor-Engine.dll!UWorld::EditorDestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:471]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1333]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1141]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:519]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:619]
+UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:790]
+UE4Editor-Kismet.dll!FBlueprintEditor::Compile() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismet\private\blueprinteditor.cpp:3110]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:387]
+UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:87]
+UE4Editor-Slate.dll!SToolBarButtonBlock::OnClicked() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\multibox\stoolbarbuttonblock.cpp:296]
+UE4Editor-Slate.dll!TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64>::operator()<>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SToolBarButtonBlock,0,FReply __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:440]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:236]
+UE4Editor-Slate.dll!<lambda_4ba5b0c116ad939f50a9b616659f063a>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4276]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_4ba5b0c116ad939f50a9b616659f063a> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
+UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4266]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4663]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4641]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1416]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1721]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:719]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:641]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2391]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+
+[2016.02.25-23.05.35:815][171]BlueprintEditorCompileResults: Info [0121.26] Compile of Weapon_Master_BP successful! [in 13,566 ms]
+[2016.02.25-23.05.38:369][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.05.38:536][303]LogSavePackage: Save=133.849716ms
+[2016.02.25-23.05.38:536][303]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP661AECD7474CF546130AD79C2397DF08.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.05.38:538][303]LogSavePackage: Total save time: 168.401003ms
+[2016.02.25-23.05.38:538][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.05.44:183][580]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.05.44:324][580]BlueprintEditorCompileResults: Info [0129.76] Compile of Weapon_Master_BP successful! [in 141 ms]
+[2016.02.25-23.05.44:904][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.05.45:072][602]LogSavePackage: Save=133.303329ms
+[2016.02.25-23.05.45:072][602]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP2794BAEF4F0CC0829C45AA97C009C7C7.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.05.45:074][602]LogSavePackage: Total save time: 168.802470ms
+[2016.02.25-23.05.45:074][602]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.05.46:976][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-23.05.46:976][718]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 3:05:46 AM)
+[2016.02.25-23.05.46:976][718]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-23.05.46:985][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008958s)
+[2016.02.25-23.05.46:986][718]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-23.05.46:986][718]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2016.02.25-23.05.46:986][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.010024s)
+[2016.02.25-23.05.47:021][718]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-23.05.47:030][718]LogInit: FAudioDevice initialized.
+[2016.02.25-23.05.47:067][718]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-23.05.47:070][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-01.05.47
+[2016.02.25-23.05.47:070][718]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.05.47:071][718]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.05.47:071][718]LogWorld: Bringing up level for play took: 0.003003
+[2016.02.25-23.05.47:075][718]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.82
+[2016.02.25-23.05.49:057][951]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.49:937][ 47]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.50:215][ 80]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.50:818][152]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.51:032][177]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.51:215][199]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.53:430][461]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.53:967][525]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.54:193][552]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.54:905][637]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.55:118][662]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.55:390][694]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.55:600][719]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.55:909][755]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.56:143][783]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.56:371][809]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.56:618][838]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.57:275][914]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.58:067][  2]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.58:807][ 81]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.59:048][106]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.59:274][129]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.59:524][156]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.59:762][180]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.05.59:978][202]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.00:220][225]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.01:535][355]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.01:760][376]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.02:006][399]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.02:266][424]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.02:501][447]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.02:720][468]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.02:986][493]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.04:988][675]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.05:239][699]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.06:831][848]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.07:040][867]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.07:239][885]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.08:578][  4]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.08:792][ 24]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.09:029][ 46]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.09:253][ 66]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.09:490][ 88]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.09:701][107]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.09:923][127]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.10:124][145]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.10:325][163]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.10:563][184]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.10:808][205]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.11:053][226]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.11:300][247]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.12:666][362]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.13:460][427]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.13:721][450]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.14:008][475]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.14:266][497]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.14:504][518]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.14:726][537]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.15:143][573]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.15:393][595]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.15:711][623]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.15:960][645]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.16:290][673]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.16:530][694]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.16:805][718]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.17:111][744]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.17:357][764]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.17:577][782]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.18:003][817]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.19:337][922]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.19:543][940]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.19:819][964]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.20:107][988]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.20:355][  9]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.20:600][ 29]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.20:830][ 49]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.21:048][ 68]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.21:283][ 89]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.21:518][109]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.22:265][174]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.22:464][191]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.22:695][211]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.22:925][231]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.23:182][253]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.23:410][272]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.23:679][295]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.23:948][318]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.25:313][431]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.25:550][451]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.25:767][469]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.27:196][588]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.27:445][608]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.27:937][648]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.28:173][667]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.28:436][688]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.28:667][706]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.28:883][723]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.29:108][741]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.30:323][838]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.30:537][856]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.30:814][880]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.31:081][903]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.31:379][928]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.31:733][958]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.31:979][979]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.32:215][999]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.32:453][ 19]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.32:733][ 42]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.32:966][ 61]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.33:211][ 81]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.33:431][ 98]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.33:687][118]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.33:927][137]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.50:104][791]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.51:524][960]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.52:286][ 51]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.53:089][147]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.54:083][266]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.54:654][334]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.54:861][359]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.55:107][388]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.55:838][475]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.57:356][656]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.57:952][727]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.06.58:747][821]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.00:189][991]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.00:924][ 78]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.02:581][276]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.03:041][331]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.03:705][409]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.04:146][461]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.04:524][505]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.05:167][580]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.05:444][612]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.06:162][691]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.06:709][747]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.07:038][783]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.07:335][817]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.07:715][860]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.08:511][948]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.08:876][988]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.09:214][ 24]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.09:801][ 86]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.10:201][128]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.11:115][220]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.11:469][252]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.11:751][278]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.11:950][296]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.13:208][416]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.13:785][472]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.14:446][536]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.14:825][573]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.15:025][593]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.15:274][617]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.15:470][636]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.15:696][657]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.18:489][914]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.18:706][935]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.18:886][952]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.19:094][972]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.19:303][991]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.21:991][237]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.22:227][259]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.22:463][281]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.22:692][302]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.22:936][325]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.23:166][346]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.23:406][368]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.23:891][412]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.25:968][601]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.26:215][624]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.26:460][647]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.26:678][667]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.26:899][687]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.27:250][718]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.28:319][812]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.28:527][830]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.28:730][847]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.28:928][864]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.31:008][ 42]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.31:203][ 60]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.31:455][ 84]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.31:725][109]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.31:921][127]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.32:189][153]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.32:413][174]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.32:664][198]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.33:692][293]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.33:932][315]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.34:163][336]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.34:445][362]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.34:682][384]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.34:950][408]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.35:201][431]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.35:427][451]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.35:667][473]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.35:870][491]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.36:944][588]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.37:326][622]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.37:563][643]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.37:994][680]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.38:253][703]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.38:541][728]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.38:789][749]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.38:978][765]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.39:203][784]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.43:075][112]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.43:913][190]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.44:798][272]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.46:136][395]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.46:877][465]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.49:025][668]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.49:444][708]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.49:770][739]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.52:922][ 51]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.53:498][111]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.53:704][132]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.53:904][152]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.54:674][229]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.55:531][316]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.55:859][350]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.56:060][370]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.56:324][396]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.56:577][421]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.57:769][535]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.57:981][556]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.58:184][576]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.58:973][653]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.59:453][705]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.07.59:745][737]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.00:011][765]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.00:281][794]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.00:534][820]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.00:798][846]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.01:073][874]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.01:291][895]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.01:519][917]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.02:107][971]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.02:661][ 22]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.02:943][ 49]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.03:337][ 86]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.03:600][111]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.03:893][138]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.04:144][161]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.04:401][184]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.04:615][203]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.07:166][438]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.07:948][513]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.08:676][582]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.08:882][601]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.09:174][627]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.09:503][656]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.10:631][761]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.10:857][782]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.11:147][808]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.11:517][840]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.11:802][865]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.12:498][923]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.12:942][961]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.13:165][980]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.08.14:485][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000145F3B00
+[2016.02.25-23.11.02:652][ 62]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.11.02:868][ 62]BlueprintEditorCompileResults: Info [0448.31] Compile of Weapon_Master_BP successful! [in 215 ms]
+[2016.02.25-23.11.03:400][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.11.03:592][ 84]LogSavePackage: Save=158.039276ms
+[2016.02.25-23.11.03:592][ 84]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPFEA51B4841AC4891369BFBBB3381CD41.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.11.03:594][ 84]LogSavePackage: Total save time: 193.203926ms
+[2016.02.25-23.11.03:594][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.11.31:074][553]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.11.31:232][553]BlueprintEditorCompileResults: Info [0476.67] Compile of Weapon_Master_BP successful! [in 157 ms]
+[2016.02.25-23.11.31:751][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.11.31:948][574]LogSavePackage: Save=156.664322ms
+[2016.02.25-23.11.31:948][574]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPBC36FB6045B5A0E4FE200884192C027F.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.11.31:950][574]LogSavePackage: Total save time: 192.624230ms
+[2016.02.25-23.11.31:950][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.11.43:345][149]LogRenderer: Reallocating scene render targets to support 1208x764 (Frame:34737).
+[2016.02.25-23.14.01:718][163]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.14.01:948][163]BlueprintEditorCompileResults: Info [0627.38] Compile of Weapon_Master_BP successful! [in 230 ms]
+[2016.02.25-23.14.02:538][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.14.02:740][183]LogSavePackage: Save=167.893036ms
+[2016.02.25-23.14.02:740][183]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPFD6E279D47C6F708AD15A487B5155379.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.14.02:742][183]LogSavePackage: Total save time: 203.127585ms
+[2016.02.25-23.14.02:742][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.16.40:124][179]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-23.16.40:279][179]BlueprintEditorCompileResults: Info [0785.71] Compile of Weapon_Master_BP successful! [in 154 ms]
+[2016.02.25-23.16.41:684][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-23.16.41:888][249]LogSavePackage: Save=169.371185ms
+[2016.02.25-23.16.41:888][249]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP548ED07D446D91ADE1AAC79454C899CC.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-23.16.41:890][249]LogSavePackage: Total save time: 205.593128ms
+[2016.02.25-23.16.41:890][249]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-23.16.46:213][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-23.16.46:213][516]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 3:16:46 AM)
+[2016.02.25-23.16.46:213][516]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-23.16.46:222][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008177s)
+[2016.02.25-23.16.46:222][516]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-23.16.46:223][516]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2016.02.25-23.16.46:223][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.009283s)
+[2016.02.25-23.16.46:258][516]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-23.16.46:266][516]LogInit: FAudioDevice initialized.
+[2016.02.25-23.16.46:303][516]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-23.16.46:306][516]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-01.16.46
+[2016.02.25-23.16.46:306][516]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.16.46:307][516]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-23.16.46:307][516]LogWorld: Bringing up level for play took: 0.002715
+[2016.02.25-23.16.46:311][516]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.049
+[2016.02.25-23.16.55:267][585]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.01:396][320]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.12:259][623]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.14:876][936]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.16:270][103]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.17:015][192]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.19:969][545]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.20:765][640]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.31:035][866]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.31:432][913]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.33:039][102]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.34:700][300]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.35:445][389]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.35:979][452]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.36:211][479]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.36:892][559]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.37:420][621]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.37:638][646]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.37:858][671]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-23.17.50:545][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E5CFA200
+[2016.02.25-23.18.14:820][802]LogMaterial: Missing cached shader map for material Crosshair, compiling. 
+[2016.02.25-23.18.14:904][802]LogMaterial: Missing cached shader map for material Crosshair, compiling. 
+[2016.02.25-23.18.14:907][802]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.25-23.18.14:933][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.25-23.18.15:947][890]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2016.02.25-23.18.15:947][890]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.25-23.18.15:947][890]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.25-23.18.17:837][ 59]Cmd: QUIT_EDITOR
+[2016.02.25-23.18.18:018][ 59]LogExit: Preparing to exit.
+[2016.02.25-23.18.18:796][ 59]LogExit: Editor shut down
+[2016.02.25-23.18.18:796][ 59]LogExit: Transaction tracking system shut down
+[2016.02.25-23.18.18:798][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117FB600
+[2016.02.25-23.18.18:798][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003066F880
+[2016.02.25-23.18.18:798][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000307B02C0
+[2016.02.25-23.18.18:798][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000326B3D80
+[2016.02.25-23.18.18:800][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005466D8A0
+[2016.02.25-23.18.18:803][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005B0240E0
+[2016.02.25-23.18.18:803][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A860EA0
+[2016.02.25-23.18.18:806][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000063E84540
+[2016.02.25-23.18.18:807][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A8E8220
+[2016.02.25-23.18.18:808][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FD762A0
+[2016.02.25-23.18.19:057][ 59]LogExit: Object subsystem successfully closed.
+[2016.02.25-23.18.19:068][ 59]LogD3D11RHI: Shutdown
+[2016.02.25-23.18.19:068][ 59]LogD3D11RHI: CleanupD3DDevice
+[2016.02.25-23.18.19:135][ 59]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.02.25-23.18.19:151][ 59]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.02.25-23.18.19:153][ 59]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.02.25-23.18.19:905][ 59]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.02.25-23.18.19:906][ 59]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.02.25-23.18.19:907][ 59]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.25-23.18.20:027][ 59]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.25-23.18.20:055][ 59]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.25-23.18.20:056][ 59]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.25-23.18.20:057][ 59]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.02.25-23.18.20:058][ 59]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.02.25-23.18.20:058][ 59]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.02.25-23.18.20:158][ 59]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.02.25-23.18.20:159][ 59]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.02.25-23.18.20:291][ 59]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.25-23.18.20:292][ 59]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.25-23.18.20:293][ 59]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.25-23.18.20:293][ 59]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.25-23.18.20:293][ 59]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.25-23.18.20:293][ 59]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.25-23.18.20:293][ 59]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.25-23.18.20:295][ 59]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.25-23.18.20:303][ 59]LogDerivedDataCache: Shutdown
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.25-23.18.20:303][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.25-23.18.20:304][ 59]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.25-23.18.22:304][ 59]LogHMD: Oculus shutdown.
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.25-23.18.22:304][ 59]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.25-23.18.22:306][ 59]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.25-23.18.22:308][ 59]LogExit: Exiting.
+[2016.02.25-23.18.22:309][ 59]Log file closed, 02/26/16 01:18:22

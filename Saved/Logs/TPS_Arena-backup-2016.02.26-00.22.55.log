@@ -1,0 +1,1139 @@
+﻿[2016.02.25-22.04.27:728][  0]Log file open, 02/26/16 00:04:27
+[2016.02.25-22.04.27:728][  0]LogInit:Display: Running engine for game: TPS_Arena
+[2016.02.25-22.04.27:728][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.25-22.04.27:728][  0]LogInit:Display: RandInit(-438163307) SRandInit(-438163306).
+[2016.02.25-22.04.27:728][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.25-22.04.27:728][  0]LogStats: Stats thread started at 0.098114
+[2016.02.25-22.04.27:728][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-22.04.27:728][  0]LogInit: API Version: 2758231
+[2016.02.25-22.04.27:728][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.25-22.04.27:728][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.25-22.04.27:728][  0]LogInit: Build Configuration: Development
+[2016.02.25-22.04.27:728][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.25-22.04.27:728][  0]LogInit: Command line:  
+[2016.02.25-22.04.27:728][  0]LogInit: Base directory: D:/Engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.25-22.04.27:728][  0]LogInit: Rocket: 1
+[2016.02.25-22.04.27:741][  0]LogInit: Using libcurl 7.41.0
+[2016.02.25-22.04.27:741][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.25-22.04.27:741][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.25-22.04.27:741][  0]LogInit:  - other features:
+[2016.02.25-22.04.27:741][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.25-22.04.27:741][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.25-22.04.27:741][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.25-22.04.27:741][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.25-22.04.27:741][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.25-22.04.27:741][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.25-22.04.27:741][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.25-22.04.27:741][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.25-22.04.27:741][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.25-22.04.27:741][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.25-22.04.27:755][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.25-22.04.27:764][  0]LogInit: Object subsystem initialized
+[2016.02.25-22.04.27:765][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-22.04.27:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.25-22.04.27:778][  0]LogInit: Computer: MIHAI-PC
+[2016.02.25-22.04.27:778][  0]LogInit: User: Mihai
+[2016.02.25-22.04.27:778][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.25-22.04.27:778][  0]LogInit: High frequency timer resolution =2.732460 MHz
+[2016.02.25-22.04.27:778][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2016.02.25-22.04.27:778][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-22.04.27:778][  0]LogMemory: Process Physical Memory: 56.96 MB used, 56.96 MB peak
+[2016.02.25-22.04.27:778][  0]LogMemory: Process Virtual Memory: 58.90 MB used, 58.90 MB peak
+[2016.02.25-22.04.27:778][  0]LogMemory: Physical Memory: 3854.16 MB used, 10231.49 MB total
+[2016.02.25-22.04.27:778][  0]LogMemory: Virtual Memory: 364.77 MB used, 8388608.00 MB total
+[2016.02.25-22.04.27:856][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.25-22.04.28:463][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.02.25-22.04.28:463][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4859MB of shared system memory, 2 output[s]
+[2016.02.25-22.04.28:463][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.25-22.04.28:485][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.25-22.04.28:485][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.25-22.04.28:498][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.25-22.04.28:516][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Projects/Unreal/TPS_Arena/Intermediate/Shaders/WorkingDirectory/6636/).
+[2016.02.25-22.04.28:516][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mihai/AppData/Local/Temp/UnrealShaderWorkingDir/673597394BF8AFC6BE0BDEB9AC82CD4B/'.
+[2016.02.25-22.04.28:516][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.25-22.04.29:892][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.25-22.04.29:899][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.25-22.04.29:905][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.25-22.04.29:911][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.25-22.04.29:916][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.25-22.04.29:921][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.25-22.04.29:924][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.25-22.04.29:928][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.25-22.04.29:932][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.25-22.04.29:936][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.25-22.04.29:940][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.25-22.04.29:948][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.25-22.04.29:948][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.25-22.04.29:949][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.25-22.04.29:968][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.25-22.04.29:972][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.25-22.04.29:976][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.25-22.04.29:980][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.25-22.04.29:980][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.25-22.04.30:104][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache: Loaded boot cache 0.28s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.25-22.04.30:388][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.25-22.04.30:477][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.25-22.04.30:488][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mihai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.25-22.04.30:909][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-22.04.30:910][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.25-22.04.30:954][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.25-22.04.30:954][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.25-22.04.31:367][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.25-22.04.32:877][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.02.25-22.04.32:897][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.25-22.04.33:196][  0]SourceControl: Info Source control is disabled
+[2016.02.25-22.04.33:356][  0]SourceControl: Info Source control is disabled
+[2016.02.25-22.04.33:371][  0]SourceControl: Info Source control is disabled
+[2016.02.25-22.04.33:384][  0]SourceControl: Info Source control is disabled
+[2016.02.25-22.04.33:700][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.02.25-22.04.33:700][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.02.25-22.04.33:772][  0]LogEngine: Initializing Engine...
+[2016.02.25-22.04.33:776][  0]OCULUS: Info: 02/25/16 22:04:33: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_8.dll
+
+[2016.02.25-22.04.33:777][  0]OCULUS: Info: 02/25/16 22:04:33: [IPC] Call Stats for SetInitialState : x1: C2S=18.2985, S2C=4.75762, Runtime=54.1636 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.02.25-22.04.33:777][  0]OCULUS: Info: 02/25/16 22:04:33: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=8.78329, S2C=2.19582, Runtime=0.731941 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.02.25-22.04.33:791][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.25-22.04.33:949][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.25-22.04.33:962][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.04.33:987][  0]LogInit: FAudioDevice initialized.
+[2016.02.25-22.04.34:019][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-22.04.34:032][  0]LogInit: Texture streaming: Enabled
+[2016.02.25-22.04.34:041][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.25-22.04.34:041][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-22.04.34:041][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3cb8ffe24e727d20e488f6a0703d071e|cfb1085945c1478380d1e808dae35820|2cf12e5c-4aaa-4bd5-bb24-20c657141085
+[2016.02.25-22.04.34:041][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.25-22.04.34:053][  0]LogInit: Transaction tracking system initialized
+[2016.02.25-22.04.34:090][  0]BlueprintLog: New page: Editor Load
+[2016.02.25-22.04.34:199][  0]LocalizationService: Info Localization service is disabled
+[2016.02.25-22.04.34:279][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.25-22.04.34:279][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.25-22.04.34:279][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.02.25-22.04.34:296][  0]LogConsoleResponse:Display: 
+[2016.02.25-22.04.34:447][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.25-22.04.34:523][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/' took 0.01s
+[2016.02.25-22.04.34:523][  0]SourceControl: Info Source control is disabled
+[2016.02.25-22.04.37:714][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Levels/characterTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-22.04.37:714][  0]LightingResults: New page: Lighting Build
+[2016.02.25-22.04.37:719][  0]MapCheck: New page: Map Check
+[2016.02.25-22.04.37:719][  0]LightingResults: New page: Lighting Build
+[2016.02.25-22.04.37:734][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023C7EAC0
+[2016.02.25-22.04.38:135][  0]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.04.38:143][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-22.04.38:144][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-22.04.38:198][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.863ms to complete.
+[2016.02.25-22.04.38:198][  0]LogFileHelpers: Loading map 'characterTesting' took 0.484
+[2016.02.25-22.04.38:278][  0]LogCollectionManager: Loaded 0 collections in 0.002288 seconds
+[2016.02.25-22.04.38:318][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Saved/Collections/' took 0.01s
+[2016.02.25-22.04.38:318][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Developers/Mihai/Collections/' took 0.01s
+[2016.02.25-22.04.38:318][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Collections/' took 0.01s
+[2016.02.25-22.04.38:318][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.25-22.04.38:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1908 classes and 344 folders.
+[2016.02.25-22.04.38:335][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.25-22.04.38:449][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.25-22.04.38:455][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.25-22.04.38:477][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.25-22.04.38:481][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.25-22.04.38:502][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_13dc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_18fc_0///####STATCAT_Advanced####
+[2016.02.25-22.04.38:502][  0]LogLoad: Full Startup: 11.37 seconds (BP compile: 0.06 seconds)
+[2016.02.25-22.04.38:511][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.02.25-22.04.38:580][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.25-22.04.38:767][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.25-22.04.38:964][  3]LogAssetRegistry: Asset discovery search completed in 6.0981 seconds
+[2016.02.25-22.04.38:964][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.25-22.04.38:964][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.02.25-22.04.46:728][579]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.25-22.04.47:290][579]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.02.25-22.05.21:031][940]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-22.05.21:206][940]BlueprintEditorCompileResults: Info [0054.07] Compile of Weapon_Master_BP successful! [in 174 ms]
+[2016.02.25-22.05.21:883][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-22.05.22:058][967]LogSavePackage: Save=135.514877ms
+[2016.02.25-22.05.22:059][967]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPA9BC5FAF49C469AB0AE30EA7C7A5CE80.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-22.05.22:061][967]LogSavePackage: Total save time: 176.407706ms
+[2016.02.25-22.05.22:061][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-22.05.25:659][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.05.25:659][212]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:05:25 AM)
+[2016.02.25-22.05.25:660][212]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.05.25:666][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006858s)
+[2016.02.25-22.05.25:667][212]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.05.25:668][212]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.02.25-22.05.25:668][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008108s)
+[2016.02.25-22.05.25:704][212]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.05.25:711][212]LogInit: FAudioDevice initialized.
+[2016.02.25-22.05.25:786][212]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.05.25:790][212]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.05.25
+[2016.02.25-22.05.25:790][212]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.05.25:790][212]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.05.25:790][212]LogWorld: Bringing up level for play took: 0.002956
+[2016.02.25-22.05.25:795][212]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.424
+[2016.02.25-22.05.27:488][409]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.29:008][581]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.30:379][745]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.30:815][797]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.32:187][961]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.33:115][ 72]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.33:661][137]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.34:180][199]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.34:388][224]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.34:849][279]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.35:073][306]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.35:793][392]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.36:015][418]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.36:243][445]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.37:581][605]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.38:133][671]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.39:837][875]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.40:312][932]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.40:682][976]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.40:873][999]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.41:117][ 28]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.41:317][ 52]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.42:924][244]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.43:325][292]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.43:969][369]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.44:466][428]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.44:907][481]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.46:525][674]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.47:771][823]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.49:293][  5]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.50:679][171]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.05.51:825][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000633EB9C0
+[2016.02.25-22.06.51:592][250]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-22.06.51:728][250]BlueprintEditorCompileResults: Info [0144.59] Compile of Weapon_Master_BP successful! [in 135 ms]
+[2016.02.25-22.06.52:332][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-22.06.52:506][282]LogSavePackage: Save=140.673233ms
+[2016.02.25-22.06.52:506][282]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP3CDD72F1453504B405A663BB20FC8035.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-22.06.52:508][282]LogSavePackage: Total save time: 175.344929ms
+[2016.02.25-22.06.52:508][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-22.06.58:319][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.06.58:320][786]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:06:58 AM)
+[2016.02.25-22.06.58:320][786]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.06.58:327][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006926s)
+[2016.02.25-22.06.58:328][786]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.06.58:328][786]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2016.02.25-22.06.58:328][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008138s)
+[2016.02.25-22.06.58:363][786]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.06.58:370][786]LogInit: FAudioDevice initialized.
+[2016.02.25-22.06.58:406][786]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.06.58:409][786]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.06.58
+[2016.02.25-22.06.58:409][786]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.06.58:409][786]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.06.58:410][786]LogWorld: Bringing up level for play took: 0.002591
+[2016.02.25-22.06.58:413][786]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.193
+[2016.02.25-22.06.59:527][914]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.00:558][ 37]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.00:982][ 88]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.02:210][233]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.03:088][338]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.04:277][480]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.07.07:635][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000406D2B60
+[2016.02.25-22.07.11:678][134]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:6388).
+[2016.02.25-22.07.21:107][722]BlueprintLog: New page: Compile Projectile
+[2016.02.25-22.07.21:212][722]BlueprintEditorCompileResults: Info [0174.08] Compile of Projectile successful! [in 104 ms]
+[2016.02.25-22.07.21:985][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset" SILENT=true
+[2016.02.25-22.07.22:041][769]LogSavePackage: Save=16.227137ms
+[2016.02.25-22.07.22:041][769]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileD22C2C3541A43EA1DE470FA52454C05E.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset'
+[2016.02.25-22.07.22:043][769]LogSavePackage: Total save time: 51.198553ms
+[2016.02.25-22.07.22:043][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset
+[2016.02.25-22.07.24:275][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.07.24:275][978]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:07:24 AM)
+[2016.02.25-22.07.24:275][978]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.07.24:282][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006830s)
+[2016.02.25-22.07.24:283][978]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.07.24:283][978]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2016.02.25-22.07.24:283][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008028s)
+[2016.02.25-22.07.24:320][978]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.07.24:327][978]LogInit: FAudioDevice initialized.
+[2016.02.25-22.07.24:365][978]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.07.24:368][978]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.07.24
+[2016.02.25-22.07.24:368][978]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.07.24:369][978]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.07.24:369][978]LogWorld: Bringing up level for play took: 0.002653
+[2016.02.25-22.07.24:372][978]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.152
+[2016.02.25-22.07.25:632][124]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.07.26:510][229]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.07.26:909][277]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.07.27:879][393]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.07.30:028][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006FF3EB60
+[2016.02.25-22.07.43:231][976]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-22.07.43:370][976]BlueprintEditorCompileResults: Info [0196.23] Compile of Weapon_Master_BP successful! [in 138 ms]
+[2016.02.25-22.07.43:858][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-22.07.44:045][999]LogSavePackage: Save=149.522049ms
+[2016.02.25-22.07.44:045][999]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPF2B5F33B41B559C7D705489ED61B609B.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-22.07.44:046][999]LogSavePackage: Total save time: 183.392618ms
+[2016.02.25-22.07.44:046][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-22.07.45:372][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.07.45:372][ 92]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:07:45 AM)
+[2016.02.25-22.07.45:372][ 92]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.07.45:379][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006647s)
+[2016.02.25-22.07.45:380][ 92]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.07.45:380][ 92]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2016.02.25-22.07.45:380][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008157s)
+[2016.02.25-22.07.45:418][ 92]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.07.45:426][ 92]LogInit: FAudioDevice initialized.
+[2016.02.25-22.07.45:464][ 92]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.07.45:467][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.07.45
+[2016.02.25-22.07.45:467][ 92]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.07.45:468][ 92]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.07.45:468][ 92]LogWorld: Bringing up level for play took: 0.002801
+[2016.02.25-22.07.45:472][ 92]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.748
+[2016.02.25-22.07.46:685][235]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.47:662][352]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.48:197][416]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.49:126][527]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.49:584][582]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.51:408][800]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.51:782][845]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.51:993][870]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.53:196][ 14]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.07.54:161][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006FF3DA80
+[2016.02.25-22.08.17:092][535]BlueprintLog: New page: Compile Projectile
+[2016.02.25-22.08.17:195][535]BlueprintEditorCompileResults: Info [0230.06] Compile of Projectile successful! [in 101 ms]
+[2016.02.25-22.08.17:773][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset" SILENT=true
+[2016.02.25-22.08.17:822][569]LogSavePackage: Save=15.435541ms
+[2016.02.25-22.08.17:822][569]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile5CB5CE984BE83AD54A2576B43E841EE6.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset'
+[2016.02.25-22.08.17:823][569]LogSavePackage: Total save time: 49.093124ms
+[2016.02.25-22.08.17:823][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset
+[2016.02.25-22.08.19:683][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.08.19:683][719]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:08:19 AM)
+[2016.02.25-22.08.19:683][719]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.08.19:690][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006849s)
+[2016.02.25-22.08.19:691][719]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.08.19:691][719]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2016.02.25-22.08.19:691][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008254s)
+[2016.02.25-22.08.19:728][719]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.08.19:735][719]LogInit: FAudioDevice initialized.
+[2016.02.25-22.08.19:769][719]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.08.19:773][719]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.08.19
+[2016.02.25-22.08.19:773][719]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.08.19:773][719]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.08.19:774][719]LogWorld: Bringing up level for play took: 0.003065
+[2016.02.25-22.08.19:777][719]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.444
+[2016.02.25-22.08.21:035][866]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.21:536][926]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.22:699][ 65]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.22:998][101]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.23:284][135]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.24:520][283]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.25:238][369]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.26:115][474]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.27:333][620]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.28:598][771]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.29:541][884]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.29:964][934]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.32:087][188]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.32:756][268]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.33:222][324]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.34:142][434]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.34:720][503]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.35:072][545]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.35:330][576]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.35:924][647]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.36:243][685]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.36:621][730]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.38:211][920]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.38:437][947]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.39:517][ 76]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.40:030][137]LogBlueprintUserMessages: [Weapon_Master_BP_C_9] Hello
+[2016.02.25-22.08.40:802][222]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006307E3E0
+[2016.02.25-22.08.52:985][503]LogEditorTransaction: Undo Delete current selection
+[2016.02.25-22.08.58:535][899]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-22.08.58:676][899]BlueprintEditorCompileResults: Info [0271.54] Compile of Weapon_Master_BP successful! [in 140 ms]
+[2016.02.25-22.08.59:109][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-22.08.59:285][924]LogSavePackage: Save=138.836060ms
+[2016.02.25-22.08.59:286][924]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPBAC665FA4046C7EF150B3CB67061D215.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-22.08.59:288][924]LogSavePackage: Total save time: 178.228408ms
+[2016.02.25-22.08.59:288][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-22.09.00:814][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.09.00:814][ 18]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:09:00 AM)
+[2016.02.25-22.09.00:814][ 18]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.09.00:821][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006632s)
+[2016.02.25-22.09.00:822][ 18]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.09.00:822][ 18]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2016.02.25-22.09.00:822][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007779s)
+[2016.02.25-22.09.00:859][ 18]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.09.00:866][ 18]LogInit: FAudioDevice initialized.
+[2016.02.25-22.09.00:904][ 18]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.09.00:907][ 18]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.09.00
+[2016.02.25-22.09.00:907][ 18]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.09.00:907][ 18]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.09.00:907][ 18]LogWorld: Bringing up level for play took: 0.002606
+[2016.02.25-22.09.00:911][ 18]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.69
+[2016.02.25-22.09.02:076][155]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.02:794][241]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.03:115][279]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.03:309][302]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.03:661][344]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.04:154][403]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.04:379][430]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.04:598][456]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.04:933][496]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.05:178][525]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.06:360][666]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.06:654][701]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.06:886][729]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.07:139][759]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.07:383][788]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.08:578][931]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.08:785][956]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.09:013][983]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.09:258][ 12]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.09:516][ 43]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.09:860][ 84]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.11:808][317]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.12:570][408]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.12:939][452]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.13:249][489]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.13:568][527]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.14:999][698]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.16:246][847]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.16:740][906]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.16:998][937]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.17:217][963]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.18:815][154]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.19:276][209]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.19:542][241]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.19:787][270]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.20:039][300]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.20:942][408]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.21:168][435]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.21:388][461]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.21:580][484]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.21:801][510]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.23:910][762]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.24:662][852]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.25:087][903]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.26:133][ 28]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.26:469][ 68]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.26:737][100]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.26:931][123]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.27:139][148]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.28:371][295]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.28:596][322]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.28:857][353]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.29:094][381]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.29:302][406]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.29:514][431]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.47:357][564]LogBlueprintUserMessages: [Weapon_Master_BP_C_4] Hello
+[2016.02.25-22.09.48:900][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000051A72520
+[2016.02.25-22.12.38:602][671]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.25-22.12.38:606][671]LogPlayLevel: [PlayLevel] Compiling Projectile before play...
+[2016.02.25-22.12.38:677][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (2 blueprints)
+[2016.02.25-22.12.38:683][671]LogPlayLevel: [PlayLevel] Compiling Weapon_Master_BP before play...
+[2016.02.25-22.12.38:784][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (3 blueprints)
+[2016.02.25-22.12.38:787][671]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.02.25-22.12.39:016][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 413 ms (4 blueprints)
+[2016.02.25-22.12.39:022][671]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2016.02.25-22.12.39:195][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 591 ms (4 blueprints)
+[2016.02.25-22.12.39:248][671]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:12:39 AM)
+[2016.02.25-22.12.39:248][671]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.12.39:255][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006634s)
+[2016.02.25-22.12.39:256][671]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.12.39:256][671]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2016.02.25-22.12.39:256][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007976s)
+[2016.02.25-22.12.39:295][671]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.12.39:302][671]LogInit: FAudioDevice initialized.
+[2016.02.25-22.12.39:337][671]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.12.39:340][671]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.12.39
+[2016.02.25-22.12.39:341][671]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.12.39:341][671]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.12.39:341][671]LogWorld: Bringing up level for play took: 0.002701
+[2016.02.25-22.12.39:344][671]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 1.121
+[2016.02.25-22.12.41:510][925]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.42:579][ 53]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.43:372][148]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.44:743][312]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.45:053][349]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.45:580][412]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.45:812][440]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.46:048][468]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.46:283][496]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.46:543][527]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.46:770][554]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.47:044][587]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.48:757][792]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.49:904][929]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.50:320][979]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.50:555][  7]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.50:780][ 34]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.51:050][ 66]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.51:731][147]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.54:203][443]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.54:722][505]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.55:841][639]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.56:068][666]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.56:295][693]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.56:493][716]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.56:787][751]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.57:032][780]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.57:276][809]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.58:206][920]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.12.58:985][ 13]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.00:848][236]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.02:117][388]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.02:945][487]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.03:144][511]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.03:339][534]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.03:555][560]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.03:740][582]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.03:923][604]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.06:382][898]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.06:693][935]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.07:507][ 32]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.09:908][319]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.10:150][348]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.10:345][371]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.10:554][396]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.14:011][809]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.20:626][601]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.21:371][690]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.21:804][742]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.22:051][771]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.22:267][797]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.22:494][824]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.29:276][635]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.29:634][678]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.29:911][711]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.30:162][741]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.30:398][769]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.31:505][901]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.31:707][925]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.32:002][960]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.32:468][ 16]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.33:332][119]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.33:541][144]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.33:754][169]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.34:000][198]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.34:253][228]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.34:565][265]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.34:852][299]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.35:064][324]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.35:264][348]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.35:501][376]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.35:721][402]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.35:974][432]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.36:261][466]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.37:056][561]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.37:277][587]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.37:556][620]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.37:807][650]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.38:060][680]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.38:329][712]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.38:941][785]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.39:132][804]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:087][918]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:220][934]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:399][955]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:565][975]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:752][997]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.40:954][ 21]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.41:675][106]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.41:834][125]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.41:987][143]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.42:138][161]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.42:308][181]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.42:458][199]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.42:612][217]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.43:747][352]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.43:924][373]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.44:070][390]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.44:271][414]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.44:450][435]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.44:642][458]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.49:501][ 34]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.49:687][ 56]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.49:890][ 80]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.50:126][108]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.50:329][132]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.50:521][155]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.50:709][177]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.50:869][196]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.51:081][221]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.51:233][239]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.51:419][261]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.51:611][284]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.51:799][306]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.55:548][751]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.55:726][772]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.55:904][793]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.56:080][814]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.56:250][834]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.57:110][936]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.57:307][959]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.57:512][983]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.57:715][  7]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.57:938][ 33]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.58:152][ 58]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.58:374][ 84]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.58:597][110]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.13.58:806][135]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.02:824][609]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.03:554][696]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.03:747][719]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.03:934][741]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.04:136][765]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.04:323][787]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.04:541][813]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.05:813][963]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.06:042][990]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.06:302][ 21]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.06:542][ 49]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.06:735][ 72]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.06:932][ 95]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.14.08:133][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000395F9620
+[2016.02.25-22.15.53:127][ 48]BlueprintLog: New page: Compile Projectile
+[2016.02.25-22.15.53:233][ 48]BlueprintEditorCompileResults: Info [0686.09] Compile of Projectile successful! [in 106 ms]
+[2016.02.25-22.15.53:668][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset" SILENT=true
+[2016.02.25-22.15.53:727][ 76]LogSavePackage: Save=23.930450ms
+[2016.02.25-22.15.53:727][ 76]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileB752A41C4F48E6E567F28195537C1493.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset'
+[2016.02.25-22.15.53:728][ 76]LogSavePackage: Total save time: 59.181836ms
+[2016.02.25-22.15.53:728][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset
+[2016.02.25-22.15.56:102][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.15.56:102][242]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:15:56 AM)
+[2016.02.25-22.15.56:102][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.15.56:110][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007398s)
+[2016.02.25-22.15.56:111][242]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.15.56:111][242]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2016.02.25-22.15.56:111][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008904s)
+[2016.02.25-22.15.56:149][242]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.15.56:156][242]LogInit: FAudioDevice initialized.
+[2016.02.25-22.15.56:192][242]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.15.56:195][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.15.56
+[2016.02.25-22.15.56:195][242]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.15.56:195][242]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.15.56:195][242]LogWorld: Bringing up level for play took: 0.002580
+[2016.02.25-22.15.56:199][242]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.026
+[2016.02.25-22.15.57:244][365]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.15.58:281][489]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.15.58:908][564]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.15.59:366][619]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.00:360][738]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.00:576][764]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.00:787][789]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.01:020][817]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.03:008][ 55]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.03:224][ 81]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.03:468][110]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.03:692][137]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.04:020][176]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.04:264][205]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.04:525][236]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.04:799][269]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.05:035][297]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.05:260][324]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.07:074][541]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.07:301][568]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.07:536][596]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.07:747][621]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.08:091][662]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.08:352][693]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.08:573][719]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.08:791][745]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.16.10:157][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003429F420
+[2016.02.25-22.16.25:836][269]BlueprintLog: New page: Compile Projectile
+[2016.02.25-22.16.25:940][269]BlueprintEditorCompileResults: Info [0718.80] Compile of Projectile successful! [in 103 ms]
+[2016.02.25-22.16.26:592][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset" SILENT=true
+[2016.02.25-22.16.26:644][302]LogSavePackage: Save=18.679871ms
+[2016.02.25-22.16.26:644][302]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile64BA78414E96B35A1835F5ABEAC51A96.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset'
+[2016.02.25-22.16.26:646][302]LogSavePackage: Total save time: 52.395277ms
+[2016.02.25-22.16.26:646][302]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Projectile.uasset
+[2016.02.25-22.16.28:256][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.16.28:256][433]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:16:28 AM)
+[2016.02.25-22.16.28:256][433]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.16.28:263][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006778s)
+[2016.02.25-22.16.28:264][433]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.16.28:264][433]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.02.25-22.16.28:264][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007992s)
+[2016.02.25-22.16.28:302][433]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.16.28:309][433]LogInit: FAudioDevice initialized.
+[2016.02.25-22.16.28:348][433]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.16.28:351][433]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.16.28
+[2016.02.25-22.16.28:351][433]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.16.28:351][433]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.16.28:351][433]LogWorld: Bringing up level for play took: 0.002707
+[2016.02.25-22.16.28:355][433]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.129
+[2016.02.25-22.16.29:641][585]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.30:954][742]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.31:900][855]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.32:251][897]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.32:537][931]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.32:807][963]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.33:034][990]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.33:254][ 16]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.35:675][306]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.35:919][335]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.36:197][368]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.36:467][400]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.38:553][650]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.49:816][  0]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.52:522][324]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.53:012][383]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.53:240][410]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.53:456][436]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.53:683][463]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.53:915][491]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.54:159][520]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.54:376][546]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.54:637][577]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.54:939][613]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.55:183][642]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.55:425][671]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.55:661][699]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.55:902][728]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.56:214][765]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.56:532][803]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.56:793][834]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.57:113][872]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.57:440][911]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.57:726][945]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.16.57:970][974]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.25-22.17.04:210][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000053C72C00
+[2016.02.25-22.17.47:667][511]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.25-22.17.47:671][511]LogPlayLevel: [PlayLevel] Compiling Projectile before play...
+[2016.02.25-22.17.47:740][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (2 blueprints)
+[2016.02.25-22.17.47:746][511]LogPlayLevel: [PlayLevel] Compiling Weapon_Master_BP before play...
+[2016.02.25-22.17.47:849][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (3 blueprints)
+[2016.02.25-22.17.47:851][511]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.02.25-22.17.48:082][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 415 ms (4 blueprints)
+[2016.02.25-22.17.48:089][511]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2016.02.25-22.17.48:265][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 598 ms (4 blueprints)
+[2016.02.25-22.17.48:318][511]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:17:48 AM)
+[2016.02.25-22.17.48:318][511]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.17.48:325][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006961s)
+[2016.02.25-22.17.48:326][511]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.17.48:326][511]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2016.02.25-22.17.48:326][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008361s)
+[2016.02.25-22.17.48:365][511]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.17.48:372][511]LogInit: FAudioDevice initialized.
+[2016.02.25-22.17.48:409][511]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.17.48:412][511]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.17.48
+[2016.02.25-22.17.48:412][511]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.17.48:412][511]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.17.48:412][511]LogWorld: Bringing up level for play took: 0.002818
+[2016.02.25-22.17.48:416][511]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.19
+[2016.02.25-22.17.51:392][862]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.52:252][965]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.52:947][ 48]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.53:179][ 76]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.54:593][245]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.55:120][308]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.55:369][338]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.55:597][365]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.55:796][389]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.56:750][503]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.57:177][554]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.57:423][583]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.57:667][612]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.57:894][639]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.58:077][661]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.58:280][685]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.58:523][714]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.58:731][739]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.59:394][818]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.17.59:613][844]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.00:249][920]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.00:427][941]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.00:613][963]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.00:796][985]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.00:974][  6]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.02:316][166]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.02:532][192]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.02:802][224]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.03:087][258]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.03:428][299]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.03:674][328]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Hello
+[2016.02.25-22.18.14:179][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E548AE0
+[2016.02.25-22.18.24:192][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.18.24:193][477]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:18:24 AM)
+[2016.02.25-22.18.24:193][477]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.18.24:200][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006906s)
+[2016.02.25-22.18.24:200][477]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.18.24:201][477]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2016.02.25-22.18.24:201][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008200s)
+[2016.02.25-22.18.24:239][477]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.18.24:245][477]LogInit: FAudioDevice initialized.
+[2016.02.25-22.18.24:280][477]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.18.24:284][477]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.18.24
+[2016.02.25-22.18.24:284][477]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.18.24:284][477]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.18.24:284][477]LogWorld: Bringing up level for play took: 0.002956
+[2016.02.25-22.18.24:288][477]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.062
+[2016.02.25-22.18.27:119][807]LogBlueprintUserMessages: [Weapon_Master_BP_C_7] Hello
+[2016.02.25-22.18.27:976][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000499B65C0
+[2016.02.25-22.18.29:193][977]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.02.25-22.18.29:277][977]LogRenderer: Reallocating scene render targets to support 1208x920 (Frame:76842).
+[2016.02.25-22.18.31:389][182]LogDestructible:Warning: MainMesh Tris: 960
+[2016.02.25-22.18.31:418][182]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.02.25-22.18.31:419][182]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.02.25-22.18.39:190][182]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.02.25-22.18.39:190][182]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.02.25-22.18.41:147][182]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2016.02.25-22.18.41:150][182]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2016.02.25-22.18.41:208][182]LogSkeletalMesh: Chunk 0: 2479 rigid vertices, 0 soft vertices, 22 active bones
+[2016.02.25-22.18.41:208][182]LogSkeletalMesh: Chunk 1: 2034 rigid vertices, 0 soft vertices, 25 active bones
+[2016.02.25-22.18.41:215][182]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3254 triangles
+[2016.02.25-22.18.41:215][182]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1460 triangles
+[2016.02.25-22.18.44:169][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Shape_Sphere_DM" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset" SILENT=true
+[2016.02.25-22.18.44:257][465]LogSavePackage: Save=52.132877ms
+[2016.02.25-22.18.44:257][465]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Shape_Sphere_DMD6B1F5B248E7C0F60FCCFE89764A5BC4.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset'
+[2016.02.25-22.18.44:259][465]LogSavePackage: Total save time: 88.127550ms
+[2016.02.25-22.18.44:259][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset
+[2016.02.25-22.18.48:259][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.18.48:260][813]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:18:48 AM)
+[2016.02.25-22.18.48:260][813]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.18.48:266][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006730s)
+[2016.02.25-22.18.48:267][813]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.18.48:267][813]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2016.02.25-22.18.48:268][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008033s)
+[2016.02.25-22.18.48:305][813]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.18.48:312][813]LogInit: FAudioDevice initialized.
+[2016.02.25-22.18.48:348][813]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.18.48:406][813]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.18.48
+[2016.02.25-22.18.48:406][813]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.18.48:406][813]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.18.48:406][813]LogWorld: Bringing up level for play took: 0.057263
+[2016.02.25-22.18.48:410][813]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.183
+[2016.02.25-22.18.50:135][ 14]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.18.52:741][326]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Hello
+[2016.02.25-22.18.53:763][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034F518A0
+[2016.02.25-22.19.15:317][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.19.15:317][137]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:19:15 AM)
+[2016.02.25-22.19.15:317][137]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.19.15:325][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007955s)
+[2016.02.25-22.19.15:326][137]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.19.15:327][137]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.02.25-22.19.15:327][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.009257s)
+[2016.02.25-22.19.15:363][137]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.19.15:370][137]LogInit: FAudioDevice initialized.
+[2016.02.25-22.19.15:404][137]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.19.15:407][137]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.19.15
+[2016.02.25-22.19.15:407][137]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.15:408][137]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.15:408][137]LogWorld: Bringing up level for play took: 0.003024
+[2016.02.25-22.19.15:411][137]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.816
+[2016.02.25-22.19.18:368][478]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052B61120
+[2016.02.25-22.19.32:582][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Shape_Sphere_DM" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset" SILENT=true
+[2016.02.25-22.19.32:664][747]LogSavePackage: Save=48.544170ms
+[2016.02.25-22.19.32:664][747]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Shape_Sphere_DMAD79EF3D4294E2984BB5358C37ED4530.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset'
+[2016.02.25-22.19.32:665][747]LogSavePackage: Total save time: 82.722891ms
+[2016.02.25-22.19.32:665][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset
+[2016.02.25-22.19.34:142][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.19.34:142][827]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:19:34 AM)
+[2016.02.25-22.19.34:142][827]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.19.34:149][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007360s)
+[2016.02.25-22.19.34:150][827]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.19.34:150][827]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2016.02.25-22.19.34:150][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008557s)
+[2016.02.25-22.19.34:188][827]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.19.34:195][827]LogInit: FAudioDevice initialized.
+[2016.02.25-22.19.34:229][827]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.19.34:233][827]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.19.34
+[2016.02.25-22.19.34:233][827]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.34:233][827]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.34:233][827]LogWorld: Bringing up level for play took: 0.002974
+[2016.02.25-22.19.34:237][827]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.01
+[2016.02.25-22.19.36:434][ 88]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.37:078][165]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.37:314][193]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.37:546][221]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.37:874][260]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.38:276][308]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.38:521][337]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.38:762][366]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.39:485][452]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.39:738][482]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.39:974][510]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.40:218][539]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.40:410][562]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.40:605][585]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.40:822][611]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.42:093][762]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.42:329][790]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.42:549][816]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.43:697][953]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.43:918][979]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.44:138][  5]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.25-22.19.44:713][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E3060C0
+[2016.02.25-22.19.54:763][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Shape_Sphere_DM" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset" SILENT=true
+[2016.02.25-22.19.54:845][950]LogSavePackage: Save=48.586620ms
+[2016.02.25-22.19.54:845][950]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Shape_Sphere_DM773EF57646F753B8B0E70393B8CFFED5.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset'
+[2016.02.25-22.19.54:847][950]LogSavePackage: Total save time: 82.662877ms
+[2016.02.25-22.19.54:847][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset
+[2016.02.25-22.19.56:603][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.19.56:603][ 68]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:19:56 AM)
+[2016.02.25-22.19.56:603][ 68]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.19.56:610][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007280s)
+[2016.02.25-22.19.56:611][ 68]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.19.56:611][ 68]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2016.02.25-22.19.56:611][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008463s)
+[2016.02.25-22.19.56:649][ 68]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.19.56:656][ 68]LogInit: FAudioDevice initialized.
+[2016.02.25-22.19.56:694][ 68]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.19.56:698][ 68]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.19.56
+[2016.02.25-22.19.56:698][ 68]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.56:698][ 68]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.19.56:698][ 68]LogWorld: Bringing up level for play took: 0.003360
+[2016.02.25-22.19.56:702][ 68]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.474
+[2016.02.25-22.19.59:056][344]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.00:568][524]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.01:688][658]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.02:171][716]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.02:375][740]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.02:549][761]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.02:752][785]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.04:192][957]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.04:728][ 21]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.04:969][ 50]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.05:198][ 77]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.05:419][103]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.05:630][128]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.05:954][166]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.06:529][234]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.06:772][263]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.07:071][298]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.07:385][335]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.07:662][367]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.09:125][536]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.09:407][569]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.09:648][597]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.09:905][627]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.10:131][653]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.10:415][686]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.10:623][710]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.13:108][997]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.14:044][106]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.14:282][134]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.14:642][176]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.14:872][203]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.15:089][228]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.15:330][256]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.15:598][287]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.15:908][323]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.16:176][354]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.16:391][379]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.16:561][399]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.16:779][424]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.16:977][447]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.18:143][581]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.18:358][606]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.18:569][630]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.18:810][658]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.19:063][687]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.19:397][724]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.19:661][753]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.19:923][781]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.20:182][808]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.20:478][840]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.20:724][866]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.20:925][887]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.21:167][912]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.21:401][936]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.21:668][963]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.21:935][989]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.22:182][ 13]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.22:384][ 33]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.22:606][ 54]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.22:854][ 76]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.24:645][247]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.24:847][267]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.25:087][290]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.25:313][312]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.25:545][335]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.25:787][360]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.26:033][385]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.26:293][411]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.26:544][437]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.26:759][458]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.26:989][481]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.27:241][506]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.27:491][531]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.27:717][554]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.32:497][ 14]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.33:133][ 76]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.33:788][139]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.34:030][162]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.34:314][189]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.34:599][216]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.34:874][242]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.35:123][265]LogBlueprintUserMessages: [Weapon_Master_BP_C_11] Hello
+[2016.02.25-22.20.36:520][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B2C28E0
+[2016.02.25-22.21.07:943][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Shape_Sphere_DM" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset" SILENT=true
+[2016.02.25-22.21.08:031][111]LogSavePackage: Save=54.125954ms
+[2016.02.25-22.21.08:031][111]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Shape_Sphere_DMAA7C72924AC3171F5EBECB96E933289C.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset'
+[2016.02.25-22.21.08:033][111]LogSavePackage: Total save time: 88.703584ms
+[2016.02.25-22.21.08:033][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Shape_Sphere_DM.uasset
+[2016.02.25-22.21.21:773][208]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.25-22.21.21:914][208]BlueprintEditorCompileResults: Info [1014.77] Compile of Weapon_Master_BP successful! [in 140 ms]
+[2016.02.25-22.21.22:358][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.25-22.21.22:545][233]LogSavePackage: Save=146.735184ms
+[2016.02.25-22.21.22:545][233]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP3C79A5894D7AEEE3902DBA83427D0B4C.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.25-22.21.22:547][233]LogSavePackage: Total save time: 187.443182ms
+[2016.02.25-22.21.22:547][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.25-22.21.23:913][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.21.23:913][324]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:21:23 AM)
+[2016.02.25-22.21.23:913][324]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.25-22.21.23:920][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007290s)
+[2016.02.25-22.21.23:921][324]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.21.23:921][324]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2016.02.25-22.21.23:922][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008686s)
+[2016.02.25-22.21.23:961][324]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.21.23:968][324]LogInit: FAudioDevice initialized.
+[2016.02.25-22.21.24:003][324]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.21.24:007][324]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.21.24
+[2016.02.25-22.21.24:007][324]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.21.24:007][324]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.21.24:008][324]LogWorld: Bringing up level for play took: 0.003307
+[2016.02.25-22.21.24:011][324]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.218
+[2016.02.25-22.21.25:340][480]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.26:739][646]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.27:678][758]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.28:442][849]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.30:237][ 61]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.32:818][363]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.34:602][574]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.36:378][782]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.40:389][255]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.41:157][345]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.41:873][429]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.43:237][587]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.43:494][616]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.45:405][829]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.45:981][895]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.46:829][989]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.47:375][ 50]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.49:022][232]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.49:507][284]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.51:510][502]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.52:045][561]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.57:201][119]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.57:498][152]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.58:168][226]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.58:385][249]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.58:587][270]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.58:809][293]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.21.59:171][329]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.00:492][450]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.00:730][474]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.00:946][495]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.01:186][518]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.02:751][674]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.03:124][711]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.03:406][739]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.03:662][764]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.03:896][786]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.04:102][805]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.04:296][823]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.04:494][841]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.04:702][860]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.04:887][876]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.05:073][892]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.05:243][906]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.06:654][ 25]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.06:898][ 47]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.07:131][ 68]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.07:345][ 87]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.07:554][106]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.07:781][126]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.08:000][145]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.08:239][165]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.08:487][185]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.08:696][201]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.08:918][219]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.09:141][237]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.09:337][253]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.09:550][270]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.09:748][286]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.10:559][352]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.10:770][369]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.10:986][386]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.11:182][402]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.11:424][422]LogBlueprintUserMessages: [Weapon_Master_BP_C_5] Hello
+[2016.02.25-22.22.14:985][717]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E1FF920
+[2016.02.25-22.22.34:100][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-22.22.34:106][170]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:22:34 AM)
+[2016.02.25-22.22.34:107][170]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.02.25-22.22.34:114][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006945s)
+[2016.02.25-22.22.34:114][170]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.22.34:115][170]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2016.02.25-22.22.34:115][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.008234s)
+[2016.02.25-22.22.34:152][170]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.25-22.22.34:159][170]LogInit: FAudioDevice initialized.
+[2016.02.25-22.22.34:197][170]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.25-22.22.34:201][170]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.22.34
+[2016.02.25-22.22.34:203][170]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.22.34:204][170]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-22.22.34:204][170]LogWorld: Bringing up level for play took: 0.005916
+[2016.02.25-22.22.34:208][170]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.02.25-22.22.34:217][170]LogInit: WinSock: I am Mihai-PC (192.168.100.7:0)
+[2016.02.25-22.22.34:218][170]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.02.25-22.22.34:221][170]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.009
+[2016.02.25-22.22.34:227][170]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 2:22:34 AM)
+[2016.02.25-22.22.34:307][170]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.02.25-22.22.34:307][170]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-22.22.34:309][170]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-22.22.34:309][170]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.02.25-22.22.34:336][170]PIE: Info Play in editor start time for /Game/Levels/characterTesting 0.106
+[2016.02.25-22.22.34:342][170]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.02.25-22.22.34:342][170]LogNet: Open characterTesting 02/26/16 00:22:34 127.0.0.1
+[2016.02.25-22.22.34:343][170]LogNet: Added client connection.  Remote address = 127.0.0.1:59938
+[2016.02.25-22.22.34:344][170]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.02.25-22.22.34:345][170]LogNet: Remote platform little endian=1
+[2016.02.25-22.22.34:345][170]LogNet: This platform little endian=1
+[2016.02.25-22.22.34:345][170]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.02.25-22.22.34:367][171]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.02.25-22.22.34:369][171]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.02.25-22.22.34:369][171]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.02.25-22.22.34:401][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034C35440
+[2016.02.25-22.22.34:405][171]Cmd: MEM
+[2016.02.25-22.22.34:437][171]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-22.22.34:437][171]LogMemory: Process Physical Memory: 1317.34 MB used, 1330.84 MB peak
+[2016.02.25-22.22.34:437][171]LogMemory: Process Virtual Memory: 2379.07 MB used, 2455.76 MB peak
+[2016.02.25-22.22.34:437][171]LogMemory: Physical Memory: 4896.35 MB used, 10231.49 MB total
+[2016.02.25-22.22.34:437][171]LogMemory: Virtual Memory: 3035.64 MB used, 8388608.00 MB total
+[2016.02.25-22.22.34:437][171]LogMemory: 
+[2016.02.25-22.22.34:437][171]Allocator Stats for TBB: (not implemented)
+[2016.02.25-22.22.34:446][171]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.02.25-22.22.34:446][171]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.25-22.22.34:450][171]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-00.22.34
+[2016.02.25-22.22.34:451][171]LogWorld: Bringing up level for play took: 0.002777
+[2016.02.25-22.22.34:473][172]LogNet: Client netspeed is 10000
+[2016.02.25-22.22.34:473][172]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.02.25-22.22.34:484][172]LogNet: Join succeeded: 273
+[2016.02.25-22.22.36:138][329]LogBlueprintUserMessages: [Weapon_Master_BP_C_8] Client 1: Hello
+[2016.02.25-22.22.48:243][271]LogBlueprintUserMessages: [Weapon_Master_BP_C_6] Server: Hello
+[2016.02.25-22.22.48:748][271]LogCrashTracker: 
+
+
+[2016.02.25-22.22.48:751][271]LogCrashTracker: 
+
+
+[2016.02.25-22.22.48:751][271]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.02.25-22.22.48:826][271]LogExit: Executing StaticShutdownAfterError
+[2016.02.25-22.22.48:829][271]LogOutputDevice:Warning: 
+
+Script Stack:
+Actor.OnRep_ReplicatedMovement
+
+[2016.02.25-22.22.48:848][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:848][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:849][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:849][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:849][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:849][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:850][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:850][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:850][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:850][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:851][271]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.25-22.22.48:852][271]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.02.25-22.22.48:852][271]Log file closed, 02/26/16 00:22:48

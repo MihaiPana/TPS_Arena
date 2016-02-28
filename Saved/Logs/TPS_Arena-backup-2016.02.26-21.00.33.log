@@ -1,0 +1,801 @@
+﻿[2016.02.26-18.38.36:431][  0]Log file open, 02/26/16 20:38:36
+[2016.02.26-18.38.36:431][  0]LogInit:Display: Running engine for game: TPS_Arena
+[2016.02.26-18.38.36:431][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.26-18.38.36:431][  0]LogInit:Display: RandInit(875835289) SRandInit(875835291).
+[2016.02.26-18.38.36:431][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.26-18.38.36:431][  0]LogStats: Stats thread started at 0.604491
+[2016.02.26-18.38.36:431][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.26-18.38.36:431][  0]LogInit: API Version: 2758231
+[2016.02.26-18.38.36:431][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.26-18.38.36:431][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.26-18.38.36:431][  0]LogInit: Build Configuration: Development
+[2016.02.26-18.38.36:431][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.26-18.38.36:431][  0]LogInit: Command line:  
+[2016.02.26-18.38.36:431][  0]LogInit: Base directory: D:/Engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.26-18.38.36:431][  0]LogInit: Rocket: 1
+[2016.02.26-18.38.36:458][  0]LogInit: Using libcurl 7.41.0
+[2016.02.26-18.38.36:458][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.26-18.38.36:458][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.26-18.38.36:458][  0]LogInit:  - other features:
+[2016.02.26-18.38.36:458][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.26-18.38.36:458][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.26-18.38.36:458][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.26-18.38.36:458][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.26-18.38.36:458][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.26-18.38.36:459][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.26-18.38.36:459][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.26-18.38.36:459][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.26-18.38.36:459][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.26-18.38.36:459][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.26-18.38.36:483][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.26-18.38.36:499][  0]LogInit: Object subsystem initialized
+[2016.02.26-18.38.36:514][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.26-18.38.36:514][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.26-18.38.36:526][  0]LogInit: Computer: MIHAI-PC
+[2016.02.26-18.38.36:526][  0]LogInit: User: Mihai
+[2016.02.26-18.38.36:526][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.26-18.38.36:526][  0]LogInit: High frequency timer resolution =2.732460 MHz
+[2016.02.26-18.38.36:526][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2016.02.26-18.38.36:526][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.26-18.38.36:526][  0]LogMemory: Process Physical Memory: 56.95 MB used, 56.95 MB peak
+[2016.02.26-18.38.36:526][  0]LogMemory: Process Virtual Memory: 58.85 MB used, 58.85 MB peak
+[2016.02.26-18.38.36:526][  0]LogMemory: Physical Memory: 5912.94 MB used, 10231.49 MB total
+[2016.02.26-18.38.36:526][  0]LogMemory: Virtual Memory: 364.77 MB used, 8388608.00 MB total
+[2016.02.26-18.38.36:689][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.26-18.38.37:459][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.02.26-18.38.37:459][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4859MB of shared system memory, 2 output[s]
+[2016.02.26-18.38.37:459][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.26-18.38.37:468][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.26-18.38.37:468][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.26-18.38.37:481][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.26-18.38.37:539][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Projects/Unreal/TPS_Arena/Intermediate/Shaders/WorkingDirectory/5580/).
+[2016.02.26-18.38.37:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mihai/AppData/Local/Temp/UnrealShaderWorkingDir/7C216509499B2964E6A665A98DBB1CC8/'.
+[2016.02.26-18.38.37:539][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.26-18.38.39:221][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.26-18.38.39:227][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.26-18.38.39:234][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.26-18.38.39:240][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.26-18.38.39:246][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.26-18.38.39:254][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.26-18.38.39:258][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.26-18.38.39:263][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.26-18.38.39:269][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.26-18.38.39:274][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.26-18.38.39:278][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.26-18.38.39:290][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.26-18.38.39:290][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.26-18.38.39:292][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.26-18.38.39:318][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.26-18.38.39:323][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.26-18.38.39:327][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.26-18.38.39:333][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.26-18.38.39:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.26-18.38.39:512][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache: Loaded boot cache 0.26s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.26-18.38.39:777][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.26-18.38.39:874][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.26-18.38.39:886][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mihai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.26-18.38.40:715][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.26-18.38.40:718][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.26-18.38.40:828][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.26-18.38.40:828][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.26-18.38.41:508][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.26-18.38.43:953][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2016.02.26-18.38.43:994][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.26-18.38.44:559][  0]SourceControl: Info Source control is disabled
+[2016.02.26-18.38.44:801][  0]SourceControl: Info Source control is disabled
+[2016.02.26-18.38.44:825][  0]SourceControl: Info Source control is disabled
+[2016.02.26-18.38.44:843][  0]SourceControl: Info Source control is disabled
+[2016.02.26-18.38.45:274][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.02.26-18.38.45:274][  0]LogUObjectAllocator: 6129768 out of 0 bytes used by permanent object pool.
+[2016.02.26-18.38.45:393][  0]LogEngine: Initializing Engine...
+[2016.02.26-18.38.45:398][  0]OCULUS: Info: 02/26/16 18:38:45: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_8.dll
+
+[2016.02.26-18.38.45:399][  0]OCULUS: Info: 02/26/16 18:38:45: [IPC] Call Stats for SetInitialState : x1: C2S=24.1541, S2C=3.65971, Runtime=55.9935 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.02.26-18.38.45:399][  0]OCULUS: Info: 02/26/16 18:38:45: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=10.9791, S2C=2.92776, Runtime=1.46388 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.02.26-18.38.45:413][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.26-18.38.45:645][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.26-18.38.45:669][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.38.45:681][  0]LogInit: FAudioDevice initialized.
+[2016.02.26-18.38.45:715][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.26-18.38.45:724][  0]LogInit: Texture streaming: Enabled
+[2016.02.26-18.38.45:733][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.26-18.38.45:733][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.26-18.38.45:733][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3cb8ffe24e727d20e488f6a0703d071e|cfb1085945c1478380d1e808dae35820|2cf12e5c-4aaa-4bd5-bb24-20c657141085
+[2016.02.26-18.38.45:734][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.26-18.38.45:753][  0]LogInit: Transaction tracking system initialized
+[2016.02.26-18.38.45:825][  0]BlueprintLog: New page: Editor Load
+[2016.02.26-18.38.46:060][  0]LocalizationService: Info Localization service is disabled
+[2016.02.26-18.38.46:178][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.26-18.38.46:178][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.26-18.38.46:178][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.02.26-18.38.46:239][  0]LogConsoleResponse:Display: 
+[2016.02.26-18.38.46:500][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.26-18.38.46:670][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/' took 0.02s
+[2016.02.26-18.38.46:670][  0]SourceControl: Info Source control is disabled
+[2016.02.26-18.38.46:673][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Levels/characterTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.26-18.38.46:678][  0]LightingResults: New page: Lighting Build
+[2016.02.26-18.38.46:692][  0]MapCheck: New page: Map Check
+[2016.02.26-18.38.46:692][  0]LightingResults: New page: Lighting Build
+[2016.02.26-18.38.46:721][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023FE6AC0
+[2016.02.26-18.38.47:259][  0]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.38.47:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.26-18.38.47:292][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.26-18.38.47:349][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.249ms to complete.
+[2016.02.26-18.38.47:350][  0]LogFileHelpers: Loading map 'characterTesting' took 0.677
+[2016.02.26-18.38.47:576][  0]LogCollectionManager: Loaded 0 collections in 0.002846 seconds
+[2016.02.26-18.38.47:635][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Saved/Collections/' took 0.01s
+[2016.02.26-18.38.47:635][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Developers/Mihai/Collections/' took 0.00s
+[2016.02.26-18.38.47:635][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Collections/' took 0.01s
+[2016.02.26-18.38.47:635][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.26-18.38.47:651][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 1908 classes and 344 folders.
+[2016.02.26-18.38.47:667][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.02.26-18.38.47:896][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.26-18.38.47:910][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.26-18.38.47:978][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.26-18.38.47:998][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.26-18.38.48:022][  0]LogLoad: Full Startup: 12.89 seconds (BP compile: 0.10 seconds)
+[2016.02.26-18.38.48:362][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.02.26-18.38.48:453][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.26-18.38.48:669][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.26-18.38.49:454][  3]LogAssetRegistry: Asset discovery search completed in 5.5112 seconds
+[2016.02.26-18.38.49:455][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.26-18.38.49:455][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.02.26-18.42.28:482][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.42.28:483][853]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:42:28 PM)
+[2016.02.26-18.42.28:484][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.42.28:491][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007162s)
+[2016.02.26-18.42.28:491][853]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.42.28:492][853]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2016.02.26-18.42.28:492][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008323s)
+[2016.02.26-18.42.28:517][853]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.42.28:524][853]LogInit: FAudioDevice initialized.
+[2016.02.26-18.42.29:733][853]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.42.29:738][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.42.29
+[2016.02.26-18.42.29:738][853]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.42.29:738][853]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.42.29:738][853]LogWorld: Bringing up level for play took: 0.003007
+[2016.02.26-18.42.29:754][853]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.591
+[2016.02.26-18.42.31:505][ 51]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.32:128][116]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.32:357][143]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.33:611][292]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.33:820][317]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.34:027][341]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.36:194][597]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.38:574][877]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.39:549][991]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.39:747][ 14]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.39:980][ 41]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.40:191][ 65]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.43:021][394]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.43:868][493]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.44:361][550]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.44:672][586]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.44:962][620]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.46:729][818]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.47:473][904]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.48:027][967]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.48:243][992]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.49:140][ 91]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.49:363][115]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.49:636][144]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.49:842][165]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.50:526][236]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.50:716][255]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.50:893][272]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.53:839][562]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.54:141][594]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.54:356][617]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.55:107][696]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.55:280][714]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.55:475][733]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.55:684][753]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.55:863][770]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.56:098][792]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.56:313][812]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.56:528][832]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.42.56:759][853]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.02:193][393]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.03:966][573]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.04:576][636]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.04:820][662]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.05:083][689]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.05:323][713]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.05:572][738]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.05:854][766]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.12:153][423]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.17:069][988]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.17:473][ 36]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.17:713][ 64]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.18:233][125]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.18:482][154]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.18:721][181]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.18:963][208]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.20:087][330]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.20:676][394]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.20:928][421]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.24:666][834]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.24:942][865]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.25:150][888]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.27:049][100]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.27:252][123]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.27:550][156]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.29:541][371]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.29:731][391]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.29:923][412]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.33:499][797]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.33:707][821]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.34:320][886]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.34:549][910]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.34:786][934]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.34:988][955]LogBlueprintUserMessages: [Weapon_Master_BP_C_0] Hello
+[2016.02.26-18.43.36:113][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000123B7740
+[2016.02.26-18.43.38:922][262]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.26-18.43.39:518][262]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.02.26-18.43.45:435][559]LogRenderer: Reallocating scene render targets to support 1208x696 (Frame:8175).
+[2016.02.26-18.44.37:494][357]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.44.37:724][357]BlueprintEditorCompileResults: Info [0362.59] Compile of Weapon_Master_BP successful! [in 229 ms]
+[2016.02.26-18.44.38:776][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.44.39:017][396]LogSavePackage: Save=186.935944ms
+[2016.02.26-18.44.39:017][396]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPB6A70D02404BD709233562AC6FAC4E84.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.44.39:019][396]LogSavePackage: Total save time: 242.429901ms
+[2016.02.26-18.44.39:019][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.44.43:563][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.44.43:563][637]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:44:43 PM)
+[2016.02.26-18.44.43:563][637]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.44.43:571][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007433s)
+[2016.02.26-18.44.43:571][637]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.44.43:572][637]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2016.02.26-18.44.43:572][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008487s)
+[2016.02.26-18.44.43:611][637]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.44.43:619][637]LogInit: FAudioDevice initialized.
+[2016.02.26-18.44.43:655][637]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.44.43:659][637]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.44.43
+[2016.02.26-18.44.43:659][637]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.44.43:659][637]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.44.43:659][637]LogWorld: Bringing up level for play took: 0.002588
+[2016.02.26-18.44.43:663][637]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.499
+[2016.02.26-18.44.48:542][203]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.53:575][802]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.53:794][828]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.54:064][860]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.55:531][ 34]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.55:748][ 59]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.55:951][ 83]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.44.56:133][103]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.01:279][701]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.02:083][796]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.03:864][  4]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.05:530][198]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.05:784][227]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.05:978][249]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.06:202][274]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.08:984][579]LogBlueprintUserMessages: [Weapon_Master_BP_C_19] Hello
+[2016.02.26-18.45.09:836][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037243420
+[2016.02.26-18.45.19:478][583]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.45.19:636][583]BlueprintEditorCompileResults: Info [0404.50] Compile of Weapon_Master_BP successful! [in 158 ms]
+[2016.02.26-18.45.20:189][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.45.20:412][611]LogSavePackage: Save=185.505005ms
+[2016.02.26-18.45.20:412][611]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP63772A00425428B54D8B9CB0304632FB.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.45.20:414][611]LogSavePackage: Total save time: 223.763205ms
+[2016.02.26-18.45.20:414][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.45.21:810][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.45.21:810][713]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:45:21 PM)
+[2016.02.26-18.45.21:810][713]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.45.21:818][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007685s)
+[2016.02.26-18.45.21:818][713]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.45.21:818][713]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2016.02.26-18.45.21:819][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008771s)
+[2016.02.26-18.45.21:854][713]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.45.21:862][713]LogInit: FAudioDevice initialized.
+[2016.02.26-18.45.21:896][713]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.45.21:899][713]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.45.21
+[2016.02.26-18.45.21:899][713]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.45.21:899][713]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.45.21:899][713]LogWorld: Bringing up level for play took: 0.002652
+[2016.02.26-18.45.21:903][713]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.739
+[2016.02.26-18.45.27:767][405]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.28:003][433]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.28:824][531]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.29:054][558]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.29:285][585]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.29:458][605]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.34:312][179]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.34:772][233]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.34:954][254]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.37:299][525]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.37:507][549]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.45.38:282][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057B1F420
+[2016.02.26-18.45.45:931][245]Cmd: MODE GRID=1
+[2016.02.26-18.45.50:802][761]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.45.50:955][761]BlueprintEditorCompileResults: Info [0435.82] Compile of Weapon_Master_BP successful! [in 152 ms]
+[2016.02.26-18.45.51:500][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.45.51:725][787]LogSavePackage: Save=188.109985ms
+[2016.02.26-18.45.51:725][787]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP51456AAD4B739E94B36B73BE9CE2443A.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.45.51:727][787]LogSavePackage: Total save time: 226.014655ms
+[2016.02.26-18.45.51:727][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.45.53:110][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.45.53:110][920]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:45:53 PM)
+[2016.02.26-18.45.53:110][920]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.45.53:117][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006237s)
+[2016.02.26-18.45.53:118][920]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.45.53:118][920]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2016.02.26-18.45.53:118][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007876s)
+[2016.02.26-18.45.53:154][920]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.45.53:162][920]LogInit: FAudioDevice initialized.
+[2016.02.26-18.45.53:196][920]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.45.53:199][920]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.45.53
+[2016.02.26-18.45.53:199][920]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.45.53:199][920]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.45.53:199][920]LogWorld: Bringing up level for play took: 0.002646
+[2016.02.26-18.45.53:203][920]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.039
+[2016.02.26-18.45.55:942][246]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.45.56:132][269]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.45.56:370][297]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.00:576][797]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.00:847][829]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.01:034][851]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.01:791][940]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.02:002][964]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.02:201][987]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.06:213][459]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.07:236][578]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.08:070][674]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.08:291][698]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.08:549][727]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.08:835][758]LogBlueprintUserMessages: [Weapon_Master_BP_C_13] Hello
+[2016.02.26-18.46.16:193][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003736F9C0
+[2016.02.26-18.46.50:203][776]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.46.50:359][776]BlueprintEditorCompileResults: Info [0495.22] Compile of Weapon_Master_BP successful! [in 155 ms]
+[2016.02.26-18.46.50:849][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.46.51:076][799]LogSavePackage: Save=190.716064ms
+[2016.02.26-18.46.51:076][799]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPE3AEF72A490941AD48EB9895585C83F2.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.46.51:077][799]LogSavePackage: Total save time: 227.387775ms
+[2016.02.26-18.46.51:077][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.46.53:438][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.46.53:438][ 38]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:46:53 PM)
+[2016.02.26-18.46.53:438][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.46.53:444][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006307s)
+[2016.02.26-18.46.53:445][ 38]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.46.53:446][ 38]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2016.02.26-18.46.53:446][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007669s)
+[2016.02.26-18.46.53:482][ 38]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.46.53:488][ 38]LogInit: FAudioDevice initialized.
+[2016.02.26-18.46.53:527][ 38]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.46.53:530][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.46.53
+[2016.02.26-18.46.53:530][ 38]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.46.53:530][ 38]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.46.53:531][ 38]LogWorld: Bringing up level for play took: 0.002830
+[2016.02.26-18.46.53:534][ 38]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.369
+[2016.02.26-18.46.57:447][502]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.07:319][685]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.08:779][859]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.08:971][882]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.11:142][141]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.11:345][165]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.11:633][199]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.13:231][387]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.13:830][457]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.14:093][487]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.22:075][426]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.22:329][456]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.22:533][479]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.24:742][728]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.24:967][754]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.25:686][836]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.25:891][859]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.26:085][880]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.26:281][901]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.27:474][ 26]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.33:535][704]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.33:978][756]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.34:154][776]LogBlueprintUserMessages: [Weapon_Master_BP_C_14] Hello
+[2016.02.26-18.47.42:161][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F0DA5C0
+[2016.02.26-18.48.48:717][936]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.48.48:935][936]BlueprintEditorCompileResults: Info [0613.80] Compile of Weapon_Master_BP successful! [in 217 ms]
+[2016.02.26-18.48.49:515][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.48.49:733][960]LogSavePackage: Save=183.315765ms
+[2016.02.26-18.48.49:733][960]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPAD9169124DE5A4FA67C0E587EEE5D9EC.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.48.49:735][960]LogSavePackage: Total save time: 219.394613ms
+[2016.02.26-18.48.49:735][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.48.51:310][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.48.51:310][ 63]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:48:51 PM)
+[2016.02.26-18.48.51:311][ 63]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.48.51:317][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006441s)
+[2016.02.26-18.48.51:318][ 63]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.48.51:318][ 63]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2016.02.26-18.48.51:319][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007999s)
+[2016.02.26-18.48.51:357][ 63]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.48.51:364][ 63]LogInit: FAudioDevice initialized.
+[2016.02.26-18.48.51:402][ 63]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.48.51:405][ 63]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.48.51
+[2016.02.26-18.48.51:405][ 63]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.48.51:406][ 63]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.48.51:406][ 63]LogWorld: Bringing up level for play took: 0.002643
+[2016.02.26-18.48.51:409][ 63]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.243
+[2016.02.26-18.49.19:860][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F0DA2A0
+[2016.02.26-18.50.14:781][720]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.50.14:932][720]BlueprintEditorCompileResults: Info [0699.79] Compile of Weapon_Master_BP successful! [in 150 ms]
+[2016.02.26-18.50.15:437][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.50.15:662][741]LogSavePackage: Save=186.518738ms
+[2016.02.26-18.50.15:662][741]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPA0BF6B6A45DE96E14E6EC0A9B77D0E25.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.50.15:664][741]LogSavePackage: Total save time: 226.296086ms
+[2016.02.26-18.50.15:664][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.50.17:049][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.50.17:049][842]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:50:17 PM)
+[2016.02.26-18.50.17:050][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.50.17:057][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007240s)
+[2016.02.26-18.50.17:058][842]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.50.17:058][842]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2016.02.26-18.50.17:058][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008328s)
+[2016.02.26-18.50.17:093][842]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.50.17:100][842]LogInit: FAudioDevice initialized.
+[2016.02.26-18.50.17:134][842]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.50.17:138][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.50.17
+[2016.02.26-18.50.17:138][842]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.50.17:138][842]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.50.17:138][842]LogWorld: Bringing up level for play took: 0.002898
+[2016.02.26-18.50.17:142][842]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.025
+[2016.02.26-18.50.35:213][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002962DB20
+[2016.02.26-18.50.45:859][ 86]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.50.46:016][ 86]BlueprintEditorCompileResults: Info [0730.88] Compile of Weapon_Master_BP successful! [in 157 ms]
+[2016.02.26-18.50.46:579][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.50.46:800][112]LogSavePackage: Save=184.768677ms
+[2016.02.26-18.50.46:800][112]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPB4BC2E87476AB48701A64CB81E21B33A.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.50.46:802][112]LogSavePackage: Total save time: 221.688513ms
+[2016.02.26-18.50.46:802][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.50.48:220][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.50.48:220][242]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:50:48 PM)
+[2016.02.26-18.50.48:221][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.50.48:228][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006987s)
+[2016.02.26-18.50.48:229][242]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.50.48:229][242]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2016.02.26-18.50.48:229][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008460s)
+[2016.02.26-18.50.48:264][242]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.50.48:271][242]LogInit: FAudioDevice initialized.
+[2016.02.26-18.50.48:308][242]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.50.48:311][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.50.48
+[2016.02.26-18.50.48:311][242]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.50.48:311][242]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.50.48:311][242]LogWorld: Bringing up level for play took: 0.002589
+[2016.02.26-18.50.48:315][242]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting -0.853
+[2016.02.26-18.50.51:286][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000703E6660
+[2016.02.26-18.51.20:133][698]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Engine/Epic Games/4.10/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h'
+[2016.02.26-18.51.20:388][698]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Engine/Epic Games/4.10/Engine/Source/Runtime/Engine/Private/Components/StaticMeshComponent.cpp'
+[2016.02.26-18.52.36:291][576]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.02.26-18.52.36:292][576]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.02.26-18.52.36:292][576]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2016.02.26-18.53.06:124][213]LogRenderer: Reallocating scene render targets to support 1432x920 (Frame:59892).
+[2016.02.26-18.53.51:516][771]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.26-18.54.40:436][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/characterTesting' took 0.036
+[2016.02.26-18.54.40:443][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineSounds/Master] ([1] browsable assets)...
+[2016.02.26-18.54.40:443][795]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSounds/Master]
+[2016.02.26-18.54.40:443][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSounds/Master" FILE="../../../../../../Projects/Unreal/TPS_Arena/Saved/Autosaves/Engine/EngineSounds/Master_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.02.26-18.54.40:485][795]LogSavePackage: Save=5.816370ms
+[2016.02.26-18.54.40:485][795]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Master_Auto1B8BD260E4458FB17E93D99965C4B72D6.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Saved/Autosaves/Engine/EngineSounds/Master_Auto1.uasset'
+[2016.02.26-18.54.40:486][795]LogSavePackage: Total save time: 41.748460ms
+[2016.02.26-18.54.40:486][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Saved/Autosaves/Engine/EngineSounds/Master_Auto1.uasset
+[2016.02.26-18.54.40:486][795]LogFileHelpers: Auto-saving content packages took 0.049
+[2016.02.26-18.57.31:710][113]AssetReimport: New page: Outstanding source content changes 10:57:31 PM
+[2016.02.26-18.57.31:713][113]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX)
+[2016.02.26-18.57.31:761][113]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.26-18.57.31:761][113]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.26-18.57.31:761][113]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.26-18.57.31:761][113]LogFbx: ItemName: Model, ItemCount : 1
+[2016.02.26-18.57.31:761][113]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.02.26-18.57.31:850][113]LogFbx: Loading FBX Scene from D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX
+[2016.02.26-18.57.31:947][113]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.26-18.57.42:602][113]LogFbx: Loading FBX Scene from D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX
+[2016.02.26-18.57.42:689][113]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.26-18.57.42:725][113]LogStaticMesh: Building static mesh Hud_Plane...
+[2016.02.26-18.57.42:730][113]LogStaticMesh: Built static mesh [0.005055.2s] /Game/MasterBlueprints/HUD/Hud_Plane.Hud_Plane
+[2016.02.26-18.57.42:812][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/HUD/Hud_Plane" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset" SILENT=true
+[2016.02.26-18.57.42:829][114]LogSavePackage: Save=14.987227ms
+[2016.02.26-18.57.42:829][114]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Hud_Plane8FF1B60E439C5F55A79C6BBD72EA127A.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset'
+[2016.02.26-18.57.42:830][114]LogSavePackage: Total save time: 16.968958ms
+[2016.02.26-18.57.42:830][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset
+[2016.02.26-18.57.45:839][258]AssetReimport: Info Importing new asset /Game/MasterBlueprints/HUD/Hud_Plane.
+[2016.02.26-18.58.21:703][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/HUD/Hud_Plane" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset" SILENT=true
+[2016.02.26-18.58.21:758][ 76]LogSavePackage: Save=15.595105ms
+[2016.02.26-18.58.21:758][ 76]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Hud_PlaneE397C4B8496F8A4EC82480AC75ED733E.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset'
+[2016.02.26-18.58.21:760][ 76]LogSavePackage: Total save time: 53.570773ms
+[2016.02.26-18.58.21:760][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset
+[2016.02.26-18.58.26:359][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/HUD/Hud_Plane" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset" SILENT=true
+[2016.02.26-18.58.26:398][422]LogSavePackage: Save=3.361074ms
+[2016.02.26-18.58.26:398][422]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Hud_Plane95F77F5F4FD6A6001F8229BD42514B30.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset'
+[2016.02.26-18.58.26:399][422]LogSavePackage: Total save time: 39.407350ms
+[2016.02.26-18.58.26:399][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset
+[2016.02.26-18.59.10:504][186]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.59.10:647][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029976C00
+[2016.02.26-18.59.10:648][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003400C680
+[2016.02.26-18.59.10:661][186]BlueprintEditorCompileResults: Info [1235.52] Compile of Weapon_Master_BP successful! [in 157 ms]
+[2016.02.26-18.59.11:655][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.59.11:885][258]LogSavePackage: Save=192.319016ms
+[2016.02.26-18.59.11:885][258]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP252AD4314CDC98AD5A4CECB79A44BD7B.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.59.11:887][258]LogSavePackage: Total save time: 231.475666ms
+[2016.02.26-18.59.11:887][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.59.13:373][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.59.13:373][354]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:59:13 PM)
+[2016.02.26-18.59.13:373][354]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.59.13:380][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007184s)
+[2016.02.26-18.59.13:381][354]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.59.13:382][354]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2016.02.26-18.59.13:382][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.008663s)
+[2016.02.26-18.59.13:419][354]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.59.13:426][354]LogInit: FAudioDevice initialized.
+[2016.02.26-18.59.13:462][354]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.59.13:466][354]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.59.13
+[2016.02.26-18.59.13:466][354]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.59.13:466][354]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.59.13:467][354]LogWorld: Bringing up level for play took: 0.003082
+[2016.02.26-18.59.13:470][354]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.297
+[2016.02.26-18.59.13:976][411]LogBlueprintUserMessages: [Weapon_Master_BP_C_10] Hello
+[2016.02.26-18.59.16:842][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000776ADF80
+[2016.02.26-18.59.29:532][645]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.02.26-18.59.29:686][645]BlueprintEditorCompileResults: Info [1254.54] Compile of Weapon_Master_BP successful! [in 154 ms]
+[2016.02.26-18.59.30:105][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.02.26-18.59.30:330][664]LogSavePackage: Save=186.840057ms
+[2016.02.26-18.59.30:330][664]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BPC0C6C71F4E8AB2ECB0814BA63F8D90F6.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset'
+[2016.02.26-18.59.30:332][664]LogSavePackage: Total save time: 225.765061ms
+[2016.02.26-18.59.30:332][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/Weapons/Weapon_Master_BP.uasset
+[2016.02.26-18.59.31:559][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.26-18.59.31:559][747]PIE: New page: PIE session: characterTesting (Feb 26, 2016, 10:59:31 PM)
+[2016.02.26-18.59.31:559][747]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_characterTesting
+[2016.02.26-18.59.31:566][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006784s)
+[2016.02.26-18.59.31:567][747]LogAIModule: Creating AISystem for world characterTesting
+[2016.02.26-18.59.31:567][747]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2016.02.26-18.59.31:567][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_0_characterTesting.characterTesting (0.007925s)
+[2016.02.26-18.59.31:605][747]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.02.26-18.59.31:613][747]LogInit: FAudioDevice initialized.
+[2016.02.26-18.59.31:650][747]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.26-18.59.31:653][747]LogWorld: Bringing World /Game/Levels/UEDPIE_0_characterTesting.characterTesting up for play (max tick rate 0) at 2016.02.26-20.59.31
+[2016.02.26-18.59.31:653][747]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.59.31:653][747]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.26-18.59.31:654][747]LogWorld: Bringing up level for play took: 0.002870
+[2016.02.26-18.59.31:657][747]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_characterTesting 0.484
+[2016.02.26-18.59.34:339][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006776B240
+[2016.02.26-19.00.18:416][449]AssetReimport: New page: Outstanding source content changes 11:00:18 PM
+[2016.02.26-19.00.18:419][449]LogEditorFactories: Performing atomic reimport of [D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX]
+[2016.02.26-19.00.18:504][449]LogFbx: Loading FBX Scene from D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX
+[2016.02.26-19.00.18:593][449]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.26-19.00.18:623][449]LogStaticMesh: Building static mesh Hud_Plane...
+[2016.02.26-19.00.18:625][449]LogStaticMesh: Built static mesh [0.002638.2s] /Game/MasterBlueprints/HUD/Hud_Plane.Hud_Plane
+[2016.02.26-19.00.18:627][449]LogEditorFactories: -- imported successfully
+[2016.02.26-19.00.18:700][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/HUD/Hud_Plane" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset" SILENT=true
+[2016.02.26-19.00.18:750][450]LogSavePackage: Save=13.518953ms
+[2016.02.26-19.00.18:750][450]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Hud_PlaneAFD7E2874630491903D67B9CB7836763.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset'
+[2016.02.26-19.00.18:752][450]LogSavePackage: Total save time: 50.602388ms
+[2016.02.26-19.00.18:752][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.uasset
+[2016.02.26-19.00.21:754][622]AssetReimport: Info Reimported asset Hud_Plane from D:/Projects/Unreal/TPS_Arena/Content/MasterBlueprints/HUD/Hud_Plane.FBX.
+[2016.02.26-19.00.30:321][121]Cmd: QUIT_EDITOR
+[2016.02.26-19.00.30:530][121]LogExit: Preparing to exit.
+[2016.02.26-19.00.31:199][121]LogExit: Editor shut down
+[2016.02.26-19.00.31:199][121]LogExit: Transaction tracking system shut down
+[2016.02.26-19.00.31:202][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001179F6A0
+[2016.02.26-19.00.31:202][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288A7880
+[2016.02.26-19.00.31:202][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000299742C0
+[2016.02.26-19.00.31:203][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000299744A0
+[2016.02.26-19.00.31:204][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014673420
+[2016.02.26-19.00.31:206][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014673600
+[2016.02.26-19.00.31:206][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C100F40
+[2016.02.26-19.00.31:209][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000078F2CE00
+[2016.02.26-19.00.31:209][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CC962A0
+[2016.02.26-19.00.31:210][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CC96DE0
+[2016.02.26-19.00.31:210][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000318023E0
+[2016.02.26-19.00.31:462][121]LogExit: Object subsystem successfully closed.
+[2016.02.26-19.00.31:475][121]LogD3D11RHI: Shutdown
+[2016.02.26-19.00.31:475][121]LogD3D11RHI: CleanupD3DDevice
+[2016.02.26-19.00.31:571][121]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (204)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module SoundClassEditor (203)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.02.26-19.00.31:596][121]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.02.26-19.00.31:597][121]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.02.26-19.00.31:597][121]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.02.26-19.00.31:598][121]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.02.26-19.00.31:599][121]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.02.26-19.00.31:600][121]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.02.26-19.00.31:600][121]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.02.26-19.00.31:600][121]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.02.26-19.00.31:600][121]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.02.26-19.00.31:600][121]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.02.26-19.00.32:303][121]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.02.26-19.00.32:305][121]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.02.26-19.00.32:306][121]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.02.26-19.00.32:306][121]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.02.26-19.00.32:307][121]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.02.26-19.00.32:307][121]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.02.26-19.00.32:307][121]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.02.26-19.00.32:307][121]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.02.26-19.00.32:308][121]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.02.26-19.00.32:309][121]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.02.26-19.00.32:309][121]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.02.26-19.00.32:309][121]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.02.26-19.00.32:309][121]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.02.26-19.00.32:310][121]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.02.26-19.00.32:310][121]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.02.26-19.00.32:310][121]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.02.26-19.00.32:310][121]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.02.26-19.00.32:310][121]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.02.26-19.00.32:311][121]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.02.26-19.00.32:311][121]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.02.26-19.00.32:311][121]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.02.26-19.00.32:311][121]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.02.26-19.00.32:312][121]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.02.26-19.00.32:403][121]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.26-19.00.32:405][121]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.26-19.00.32:420][121]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.26-19.00.32:420][121]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.26-19.00.32:420][121]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.26-19.00.32:421][121]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.26-19.00.32:421][121]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.26-19.00.32:422][121]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.26-19.00.32:423][121]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.26-19.00.32:424][121]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.26-19.00.32:424][121]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.26-19.00.32:424][121]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.26-19.00.32:425][121]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.02.26-19.00.32:426][121]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.02.26-19.00.32:426][121]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.02.26-19.00.32:526][121]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.02.26-19.00.32:526][121]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.02.26-19.00.32:665][121]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.02.26-19.00.32:666][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.26-19.00.32:666][121]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.26-19.00.32:666][121]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.26-19.00.32:670][121]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.26-19.00.32:670][121]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.26-19.00.32:671][121]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.26-19.00.32:671][121]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.26-19.00.32:671][121]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.26-19.00.32:671][121]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.26-19.00.32:672][121]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.26-19.00.32:672][121]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.26-19.00.32:672][121]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.26-19.00.32:672][121]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.26-19.00.32:672][121]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.26-19.00.32:673][121]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.26-19.00.32:675][121]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.26-19.00.32:676][121]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.26-19.00.32:676][121]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.26-19.00.32:676][121]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.26-19.00.32:678][121]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.26-19.00.32:771][121]LogDerivedDataCache: Shutdown
+[2016.02.26-19.00.32:771][121]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.26-19.00.32:773][121]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.26-19.00.32:773][121]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.26-19.00.32:774][121]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.26-19.00.32:775][121]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.26-19.00.32:775][121]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.26-19.00.32:775][121]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.26-19.00.32:775][121]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.26-19.00.32:775][121]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.26-19.00.33:775][121]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.26-19.00.33:776][121]LogHMD: Oculus shutdown.
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.26-19.00.33:776][121]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.26-19.00.33:779][121]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.26-19.00.33:780][121]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.26-19.00.33:782][121]LogExit: Exiting.
+[2016.02.26-19.00.33:803][121]Log file closed, 02/26/16 21:00:33
