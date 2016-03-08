@@ -1,0 +1,1111 @@
+﻿[2016.03.07-21.52.39:340][  0]Log file open, 03/07/16 23:52:39
+[2016.03.07-21.52.39:340][  0]LogInit:Display: Running engine for game: TPS_Arena
+[2016.03.07-21.52.39:340][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.07-21.52.39:340][  0]LogInit:Display: RandInit(130930491) SRandInit(130930493).
+[2016.03.07-21.52.39:340][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.07-21.52.39:340][  0]LogStats: Stats thread started at 0.530854
+[2016.03.07-21.52.39:340][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.07-21.52.39:340][  0]LogInit: API Version: 2758231
+[2016.03.07-21.52.39:340][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.07-21.52.39:340][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.07-21.52.39:340][  0]LogInit: Build Configuration: Development
+[2016.03.07-21.52.39:340][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.07-21.52.39:340][  0]LogInit: Command line:  
+[2016.03.07-21.52.39:340][  0]LogInit: Base directory: D:/Engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.07-21.52.39:340][  0]LogInit: Rocket: 1
+[2016.03.07-21.52.39:362][  0]LogInit: Using libcurl 7.41.0
+[2016.03.07-21.52.39:362][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.07-21.52.39:362][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.07-21.52.39:362][  0]LogInit:  - other features:
+[2016.03.07-21.52.39:362][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.07-21.52.39:362][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.07-21.52.39:362][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.07-21.52.39:362][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.07-21.52.39:362][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.07-21.52.39:364][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.07-21.52.39:364][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.07-21.52.39:364][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.07-21.52.39:364][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.07-21.52.39:364][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.07-21.52.39:393][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.07-21.52.39:412][  0]LogInit: Object subsystem initialized
+[2016.03.07-21.52.39:427][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.07-21.52.39:427][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.07-21.52.39:442][  0]LogInit: Computer: MIHAI-PC
+[2016.03.07-21.52.39:442][  0]LogInit: User: Mihai
+[2016.03.07-21.52.39:442][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.07-21.52.39:442][  0]LogInit: High frequency timer resolution =2.732460 MHz
+[2016.03.07-21.52.39:442][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2016.03.07-21.52.39:442][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-21.52.39:442][  0]LogMemory: Process Physical Memory: 56.91 MB used, 56.91 MB peak
+[2016.03.07-21.52.39:442][  0]LogMemory: Process Virtual Memory: 60.81 MB used, 60.81 MB peak
+[2016.03.07-21.52.39:442][  0]LogMemory: Physical Memory: 1339.82 MB used, 10231.49 MB total
+[2016.03.07-21.52.39:442][  0]LogMemory: Virtual Memory: 366.70 MB used, 8388608.00 MB total
+[2016.03.07-21.52.39:673][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.07-21.52.40:417][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.07-21.52.40:417][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4859MB of shared system memory, 2 output[s]
+[2016.03.07-21.52.40:417][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.07-21.52.40:440][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.07-21.52.40:441][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.07-21.52.40:456][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.07-21.52.40:490][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Projects/Unreal/TPS_Arena/Intermediate/Shaders/WorkingDirectory/6172/).
+[2016.03.07-21.52.40:490][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mihai/AppData/Local/Temp/UnrealShaderWorkingDir/65F5FF3B44789352FAC297B7D4EB8EE6/'.
+[2016.03.07-21.52.40:490][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.07-21.52.42:207][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.07-21.52.42:212][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.07-21.52.42:218][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.07-21.52.42:223][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.07-21.52.42:229][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.07-21.52.42:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.07-21.52.42:240][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.07-21.52.42:245][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.07-21.52.42:250][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.07-21.52.42:254][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.07-21.52.42:258][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.07-21.52.42:269][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.07-21.52.42:269][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.07-21.52.42:270][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.07-21.52.42:297][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.07-21.52.42:301][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.07-21.52.42:304][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.07-21.52.42:309][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.07-21.52.42:309][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.07-21.52.42:482][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache: Loaded boot cache 0.26s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/Unreal/TPS_Arena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.07-21.52.42:743][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.07-21.52.42:842][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.07-21.52.42:854][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mihai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.07-21.52.43:752][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.07-21.52.43:755][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.07-21.52.43:865][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.07-21.52.43:865][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.07-21.52.44:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.07-21.52.47:375][  0]LogAssetRegistry: FAssetRegistry took 0.0124 seconds to start up
+[2016.03.07-21.52.47:422][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.07-21.52.47:923][  0]SourceControl: Info Source control is disabled
+[2016.03.07-21.52.48:120][  0]SourceControl: Info Source control is disabled
+[2016.03.07-21.52.48:143][  0]SourceControl: Info Source control is disabled
+[2016.03.07-21.52.48:160][  0]SourceControl: Info Source control is disabled
+[2016.03.07-21.52.48:571][  0]LogObj: 28802 objects as part of root set at end of initial load.
+[2016.03.07-21.52.48:571][  0]LogUObjectAllocator: 6129776 out of 0 bytes used by permanent object pool.
+[2016.03.07-21.52.48:691][  0]LogEngine: Initializing Engine...
+[2016.03.07-21.52.48:698][  0]OCULUS: Info: 03/07/16 21:52:48: [CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_8.dll
+
+[2016.03.07-21.52.48:705][  0]OCULUS: Info: 03/07/16 21:52:48: [IPC] Call Stats for SetInitialState : x1: C2S=38.7929, S2C=14.6388, Runtime=1445.58 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.03.07-21.52.48:705][  0]OCULUS: Info: 03/07/16 21:52:48: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=19.0305, S2C=4.02568, Runtime=3.29374 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.03.07-21.52.48:720][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.07-21.52.48:936][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.07-21.52.48:970][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-21.52.49:020][  0]LogInit: FAudioDevice initialized.
+[2016.03.07-21.52.49:056][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Mihai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.07-21.52.49:069][  0]LogInit: Texture streaming: Enabled
+[2016.03.07-21.52.49:079][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.07-21.52.49:079][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.07-21.52.49:080][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3cb8ffe24e727d20e488f6a0703d071e|cfb1085945c1478380d1e808dae35820|2cf12e5c-4aaa-4bd5-bb24-20c657141085
+[2016.03.07-21.52.49:081][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.07-21.52.49:100][  0]LogInit: Transaction tracking system initialized
+[2016.03.07-21.52.49:198][  0]BlueprintLog: New page: Editor Load
+[2016.03.07-21.52.49:420][  0]LocalizationService: Info Localization service is disabled
+[2016.03.07-21.52.49:541][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.03.07-21.52.49:541][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.03.07-21.52.49:541][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.03.07-21.52.49:579][  0]LogConsoleResponse:Display: 
+[2016.03.07-21.52.49:818][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.07-21.52.49:956][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/' took 0.03s
+[2016.03.07-21.52.49:956][  0]SourceControl: Info Source control is disabled
+[2016.03.07-21.53.54:190][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/Levels/characterTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.07-21.53.54:194][  0]LightingResults: New page: Lighting Build
+[2016.03.07-21.53.54:206][  0]MapCheck: New page: Map Check
+[2016.03.07-21.53.54:206][  0]LightingResults: New page: Lighting Build
+[2016.03.07-21.53.54:225][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023CAAAC0
+[2016.03.07-21.53.55:411][  0]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.53.55:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.07-21.53.55:486][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.07-21.53.55:547][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.516ms to complete.
+[2016.03.07-21.53.55:547][  0]LogFileHelpers: Loading map 'characterTesting' took 1.358
+[2016.03.07-21.53.55:691][  0]LogCollectionManager: Loaded 0 collections in 0.002920 seconds
+[2016.03.07-21.53.55:753][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Saved/Collections/' took 0.01s
+[2016.03.07-21.53.55:753][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Developers/Mihai/Collections/' took 0.01s
+[2016.03.07-21.53.55:753][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/TPS_Arena/Content/Collections/' took 0.01s
+[2016.03.07-21.53.55:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.07-21.53.55:768][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 1908 classes and 344 folders.
+[2016.03.07-21.53.55:783][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.03.07-21.53.56:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.03.07-21.53.56:017][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.03.07-21.53.56:101][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.07-21.53.56:115][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.07-21.53.56:138][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1ee4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1ec8_0///####STATCAT_Advanced####
+[2016.03.07-21.53.56:138][  0]LogLoad: Full Startup: 78.07 seconds (BP compile: 0.09 seconds)
+[2016.03.07-21.53.56:148][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.07-21.53.56:234][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.07-21.53.56:432][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.03.07-21.53.57:080][  4]LogAssetRegistry: Asset discovery search completed in 69.7164 seconds
+[2016.03.07-21.53.57:081][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.07-21.53.57:081][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.03.07-21.54.11:936][208]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.07-21.54.12:532][208]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.03.07-21.54.30:015][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-21.54.30:021][721]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:54:30 AM)
+[2016.03.07-21.54.30:022][721]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-21.54.30:211][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189801s)
+[2016.03.07-21.54.30:212][721]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.54.30:213][721]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2016.03.07-21.54.30:213][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.191451s)
+[2016.03.07-21.54.30:213][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.07-21.54.30:213][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-21.54.30:308][721]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-21.54.30:316][721]LogInit: FAudioDevice initialized.
+[2016.03.07-21.54.30:425][721]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-21.54.30:475][721]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.54.30
+[2016.03.07-21.54.30:475][721]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.54.30:476][721]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.54.30:481][721]LogWorld: Bringing up level for play took: 0.052137
+[2016.03.07-21.54.30:488][721]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-21.54.30:498][721]LogInit: WinSock: I am Mihai-PC (192.168.100.2:0)
+[2016.03.07-21.54.30:499][721]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.03.07-21.54.30:526][721]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting 0.706
+[2016.03.07-21.54.30:531][721]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:54:30 AM)
+[2016.03.07-21.54.30:603][721]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-21.54.30:603][721]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-21.54.30:604][721]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-21.54.30:604][721]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.54.30:629][721]PIE: Info Play in editor start time for /Game/Levels/characterTesting 0.809
+[2016.03.07-21.54.30:635][721]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-21.54.30:635][721]LogNet: Open characterTesting 03/07/16 23:54:30 127.0.0.1
+[2016.03.07-21.54.30:636][721]LogNet: Added client connection.  Remote address = 127.0.0.1:62291
+[2016.03.07-21.54.30:636][721]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-21.54.30:636][721]LogNet: Remote platform little endian=1
+[2016.03.07-21.54.30:636][721]LogNet: This platform little endian=1
+[2016.03.07-21.54.30:636][721]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.54.30:659][722]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-21.54.30:661][722]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-21.54.30:985][722]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:862).
+[2016.03.07-21.54.31:048][722]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-21.54.31:081][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007499D800
+[2016.03.07-21.54.31:084][722]Cmd: MEM
+[2016.03.07-21.54.31:120][722]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-21.54.31:120][722]LogMemory: Process Physical Memory: 1042.12 MB used, 1042.12 MB peak
+[2016.03.07-21.54.31:120][722]LogMemory: Process Virtual Memory: 2056.79 MB used, 2224.19 MB peak
+[2016.03.07-21.54.31:120][722]LogMemory: Physical Memory: 2673.42 MB used, 10231.49 MB total
+[2016.03.07-21.54.31:121][722]LogMemory: Virtual Memory: 2705.29 MB used, 8388608.00 MB total
+[2016.03.07-21.54.31:121][722]LogMemory: 
+[2016.03.07-21.54.31:121][722]Allocator Stats for TBB: (not implemented)
+[2016.03.07-21.54.31:296][722]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-21.54.31:298][722]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.54.31:347][722]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.54.31
+[2016.03.07-21.54.31:352][722]LogWorld: Bringing up level for play took: 0.051348
+[2016.03.07-21.54.31:371][723]LogNet: Client netspeed is 10000
+[2016.03.07-21.54.31:371][723]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-21.54.31:377][723]LogNet: Join succeeded: 257
+[2016.03.07-21.55.13:243][407]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_4. Function ServerReloadLookUp will not be processed.
+[2016.03.07-21.55.26:929][609]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.55.26:929][609]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:62291, Time: 2016.03.07-21.55.26
+[2016.03.07-21.55.26:929][609]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.03.07-21.55.26:931][609]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.55.26:931][609]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-21.55.26
+[2016.03.07-21.55.26:931][609]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.03.07-21.55.26:942][609]LogExit: GameNetDriver None shut down
+[2016.03.07-21.55.26:942][609]LogExit: GameNetDriver None shut down
+[2016.03.07-21.55.26:944][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E1E20C0
+[2016.03.07-21.55.26:974][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000073DF32E0
+[2016.03.07-21.55.49:185][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-21.55.57:954][625]BlueprintLog: New page: Compile Projectile
+[2016.03.07-21.55.58:043][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.03.07-21.55.58:082][625]BlueprintEditorCompileResults: Info [0200.01] Compile of Projectile successful! [in 127 ms]
+[2016.03.07-21.55.58:824][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-21.55.58:907][679]LogSavePackage: Save=69.609436ms
+[2016.03.07-21.55.58:907][679]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileCD9D689B4998D2683785188B232CE288.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-21.55.58:914][679]LogSavePackage: Total save time: 88.740546ms
+[2016.03.07-21.55.58:914][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-21.56.00:761][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-21.56.00:766][825]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:56:00 AM)
+[2016.03.07-21.56.00:766][825]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-21.56.00:949][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182977s)
+[2016.03.07-21.56.00:951][825]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.56.00:951][825]LogPlayLevel: PIE: World Init took: (0.002068s)
+[2016.03.07-21.56.00:952][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.185452s)
+[2016.03.07-21.56.00:952][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-21.56.00:995][825]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-21.56.01:002][825]LogInit: FAudioDevice initialized.
+[2016.03.07-21.56.01:077][825]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-21.56.01:125][825]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.56.01
+[2016.03.07-21.56.01:125][825]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.56.01:125][825]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.56.01:131][825]LogWorld: Bringing up level for play took: 0.052718
+[2016.03.07-21.56.01:132][825]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-21.56.01:133][825]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.03.07-21.56.01:156][825]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting 1.335
+[2016.03.07-21.56.01:161][825]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:56:01 AM)
+[2016.03.07-21.56.01:233][825]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-21.56.01:233][825]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-21.56.01:234][825]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-21.56.01:234][825]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.56.01:255][825]PIE: Info Play in editor start time for /Game/Levels/characterTesting 1.434
+[2016.03.07-21.56.01:260][825]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-21.56.01:260][825]LogNet: Open characterTesting 03/07/16 23:56:01 127.0.0.1
+[2016.03.07-21.56.01:260][825]LogNet: Added client connection.  Remote address = 127.0.0.1:65361
+[2016.03.07-21.56.01:260][825]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-21.56.01:260][825]LogNet: Remote platform little endian=1
+[2016.03.07-21.56.01:260][825]LogNet: This platform little endian=1
+[2016.03.07-21.56.01:260][825]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.56.01:276][826]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-21.56.01:277][826]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-21.56.01:624][826]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-21.56.01:656][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004805F7E0
+[2016.03.07-21.56.01:660][826]Cmd: MEM
+[2016.03.07-21.56.01:692][826]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-21.56.01:692][826]LogMemory: Process Physical Memory: 1123.43 MB used, 1161.59 MB peak
+[2016.03.07-21.56.01:692][826]LogMemory: Process Virtual Memory: 2220.93 MB used, 2278.98 MB peak
+[2016.03.07-21.56.01:692][826]LogMemory: Physical Memory: 2727.80 MB used, 10231.49 MB total
+[2016.03.07-21.56.01:692][826]LogMemory: Virtual Memory: 2848.66 MB used, 8388608.00 MB total
+[2016.03.07-21.56.01:692][826]LogMemory: 
+[2016.03.07-21.56.01:692][826]Allocator Stats for TBB: (not implemented)
+[2016.03.07-21.56.01:888][826]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-21.56.01:890][826]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.56.01:937][826]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.56.01
+[2016.03.07-21.56.01:943][826]LogWorld: Bringing up level for play took: 0.052001
+[2016.03.07-21.56.01:966][827]LogNet: Client netspeed is 10000
+[2016.03.07-21.56.01:966][827]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-21.56.01:972][827]LogNet: Join succeeded: 259
+[2016.03.07-21.56.21:133][485]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.56.21:133][485]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:65361, Time: 2016.03.07-21.56.21
+[2016.03.07-21.56.21:133][485]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.03.07-21.56.21:133][485]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.56.21:133][485]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-21.56.21
+[2016.03.07-21.56.21:133][485]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.03.07-21.56.21:144][485]LogExit: GameNetDriver None shut down
+[2016.03.07-21.56.21:144][485]LogExit: GameNetDriver None shut down
+[2016.03.07-21.56.21:174][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A75C60
+[2016.03.07-21.56.21:174][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000733A9EE0
+[2016.03.07-21.57.54:853][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-21.57.54:858][527]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:57:54 AM)
+[2016.03.07-21.57.54:858][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-21.57.55:037][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.179332s)
+[2016.03.07-21.57.55:040][527]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.57.55:040][527]LogPlayLevel: PIE: World Init took: (0.002873s)
+[2016.03.07-21.57.55:041][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.182738s)
+[2016.03.07-21.57.55:079][527]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-21.57.55:086][527]LogInit: FAudioDevice initialized.
+[2016.03.07-21.57.55:160][527]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-21.57.55:207][527]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.57.55
+[2016.03.07-21.57.55:207][527]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.57.55:207][527]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.57.55:213][527]LogWorld: Bringing up level for play took: 0.051231
+[2016.03.07-21.57.55:214][527]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-21.57.55:214][527]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.03.07-21.57.55:238][527]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.584
+[2016.03.07-21.57.55:244][527]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:57:55 AM)
+[2016.03.07-21.57.55:319][527]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-21.57.55:319][527]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-21.57.55:319][527]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-21.57.55:319][527]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.57.55:340][527]PIE: Info Play in editor start time for /Game/Levels/characterTesting -0.483
+[2016.03.07-21.57.55:346][527]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-21.57.55:346][527]LogNet: Open characterTesting 03/07/16 23:57:55 127.0.0.1
+[2016.03.07-21.57.55:346][527]LogNet: Added client connection.  Remote address = 127.0.0.1:56903
+[2016.03.07-21.57.55:346][527]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-21.57.55:346][527]LogNet: Remote platform little endian=1
+[2016.03.07-21.57.55:346][527]LogNet: This platform little endian=1
+[2016.03.07-21.57.55:346][527]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.57.55:363][528]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-21.57.55:365][528]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-21.57.55:703][528]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-21.57.55:737][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A76AC0
+[2016.03.07-21.57.55:740][528]Cmd: MEM
+[2016.03.07-21.57.55:772][528]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-21.57.55:773][528]LogMemory: Process Physical Memory: 1171.78 MB used, 1209.39 MB peak
+[2016.03.07-21.57.55:773][528]LogMemory: Process Virtual Memory: 2264.21 MB used, 2336.64 MB peak
+[2016.03.07-21.57.55:773][528]LogMemory: Physical Memory: 2779.16 MB used, 10231.49 MB total
+[2016.03.07-21.57.55:773][528]LogMemory: Virtual Memory: 2891.19 MB used, 8388608.00 MB total
+[2016.03.07-21.57.55:773][528]LogMemory: 
+[2016.03.07-21.57.55:773][528]Allocator Stats for TBB: (not implemented)
+[2016.03.07-21.57.55:961][528]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-21.57.55:962][528]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.57.56:011][528]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.57.56
+[2016.03.07-21.57.56:016][528]LogWorld: Bringing up level for play took: 0.053026
+[2016.03.07-21.57.56:033][529]LogNet: Client netspeed is 10000
+[2016.03.07-21.57.56:033][529]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-21.57.56:040][529]LogNet: Join succeeded: 261
+[2016.03.07-21.58.23:721][942]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.58.23:722][942]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:56903, Time: 2016.03.07-21.58.23
+[2016.03.07-21.58.23:724][942]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.03.07-21.58.23:724][942]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-21.58.23:724][942]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-21.58.23
+[2016.03.07-21.58.23:724][942]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.03.07-21.58.23:733][942]LogExit: GameNetDriver None shut down
+[2016.03.07-21.58.23:738][942]LogExit: GameNetDriver None shut down
+[2016.03.07-21.58.23:767][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A76520
+[2016.03.07-21.58.23:767][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000591CD440
+[2016.03.07-21.58.33:773][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-21.58.38:264][370]BlueprintLog: New page: Compile Projectile
+[2016.03.07-21.58.38:350][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.03.07-21.58.38:389][370]BlueprintEditorCompileResults: Info [0360.31] Compile of Projectile successful! [in 124 ms]
+[2016.03.07-21.58.38:907][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-21.58.38:985][402]LogSavePackage: Save=72.244057ms
+[2016.03.07-21.58.38:985][402]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile2DDB1EE348EB81B0ECD99FAC6FD9DD00.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-21.58.38:987][402]LogSavePackage: Total save time: 78.950837ms
+[2016.03.07-21.58.38:987][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-21.58.40:844][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-21.58.40:849][561]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:58:40 AM)
+[2016.03.07-21.58.40:849][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-21.58.41:028][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178675s)
+[2016.03.07-21.58.41:029][561]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.58.41:030][561]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2016.03.07-21.58.41:030][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.180792s)
+[2016.03.07-21.58.41:030][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-21.58.41:070][561]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-21.58.41:077][561]LogInit: FAudioDevice initialized.
+[2016.03.07-21.58.41:154][561]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-21.58.41:203][561]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.58.41
+[2016.03.07-21.58.41:203][561]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.58.41:204][561]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-21.58.41:209][561]LogWorld: Bringing up level for play took: 0.054058
+[2016.03.07-21.58.41:210][561]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-21.58.41:211][561]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.03.07-21.58.41:235][561]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.588
+[2016.03.07-21.58.41:240][561]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 1:58:41 AM)
+[2016.03.07-21.58.41:317][561]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-21.58.41:317][561]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-21.58.41:318][561]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-21.58.41:318][561]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.58.41:339][561]PIE: Info Play in editor start time for /Game/Levels/characterTesting -0.483
+[2016.03.07-21.58.41:345][561]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-21.58.41:345][561]LogNet: Open characterTesting 03/07/16 23:58:41 127.0.0.1
+[2016.03.07-21.58.41:345][561]LogNet: Added client connection.  Remote address = 127.0.0.1:56977
+[2016.03.07-21.58.41:345][561]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-21.58.41:345][561]LogNet: Remote platform little endian=1
+[2016.03.07-21.58.41:345][561]LogNet: This platform little endian=1
+[2016.03.07-21.58.41:345][561]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-21.58.41:362][562]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-21.58.41:363][562]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-21.58.41:701][562]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-21.58.41:733][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BCB59E0
+[2016.03.07-21.58.41:737][562]Cmd: MEM
+[2016.03.07-21.58.41:770][562]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-21.58.41:770][562]LogMemory: Process Physical Memory: 1255.16 MB used, 1301.21 MB peak
+[2016.03.07-21.58.41:770][562]LogMemory: Process Virtual Memory: 2346.30 MB used, 2406.43 MB peak
+[2016.03.07-21.58.41:770][562]LogMemory: Physical Memory: 2875.20 MB used, 10231.49 MB total
+[2016.03.07-21.58.41:770][562]LogMemory: Virtual Memory: 2976.75 MB used, 8388608.00 MB total
+[2016.03.07-21.58.41:770][562]LogMemory: 
+[2016.03.07-21.58.41:770][562]Allocator Stats for TBB: (not implemented)
+[2016.03.07-21.58.41:953][562]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-21.58.41:954][562]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-21.58.42:001][562]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.07-23.58.42
+[2016.03.07-21.58.42:007][562]LogWorld: Bringing up level for play took: 0.051268
+[2016.03.07-21.58.42:024][563]LogNet: Client netspeed is 10000
+[2016.03.07-21.58.42:024][563]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-21.58.42:029][563]LogNet: Join succeeded: 263
+[2016.03.07-21.59.00:134][116]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-21.59.11:643][ 96]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-21.59.19:171][752]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-21.59.34:940][ 81]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-21.59.47:956][189]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.00.08:369][946]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.00.32:483][994]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_16. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.00.37:774][438]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.00.37:774][438]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:56977, Time: 2016.03.07-22.00.37
+[2016.03.07-22.00.37:774][438]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.03.07-22.00.37:774][438]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.00.37:774][438]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.00.37
+[2016.03.07-22.00.37:774][438]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.03.07-22.00.37:783][438]LogExit: GameNetDriver None shut down
+[2016.03.07-22.00.37:785][438]LogExit: GameNetDriver None shut down
+[2016.03.07-22.00.37:815][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007E1E31A0
+[2016.03.07-22.00.37:815][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A745E0
+[2016.03.07-22.01.19:101][740]LogTexture:Display: Building textures: T_Steam_02_Packed (AutoDXT)
+[2016.03.07-22.01.21:935][740]LogMaterial: Missing cached shader map for material M_LensFlare_02, compiling. 
+[2016.03.07-22.01.21:953][740]LogMaterial: Missing cached shader map for material M_MuzzleSmokeDetail_GPU, compiling. 
+[2016.03.07-22.01.21:968][740]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.03.07-22.01.23:642][856]BlueprintLog: New page: Compile Projectile
+[2016.03.07-22.01.23:726][856]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.01.23:768][856]BlueprintEditorCompileResults: Info [0525.69] Compile of Projectile successful! [in 125 ms]
+[2016.03.07-22.01.24:599][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.01.24:961][897]LogSavePackage: Save=272.387512ms
+[2016.03.07-22.01.24:961][897]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile724089FA49AE32F5AAC1DCB20D0813BF.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.01.25:066][897]LogSavePackage: Total save time: 383.842032ms
+[2016.03.07-22.01.25:066][897]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.01.26:630][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.01.26:711][949]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:01:26 AM)
+[2016.03.07-22.01.26:711][949]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.01.26:924][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.212968s)
+[2016.03.07-22.01.26:925][949]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.01.26:925][949]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2016.03.07-22.01.26:925][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.214288s)
+[2016.03.07-22.01.26:925][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.01.26:986][949]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.01.26:993][949]LogInit: FAudioDevice initialized.
+[2016.03.07-22.01.27:077][949]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.01.27:135][949]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.01.27
+[2016.03.07-22.01.27:135][949]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.01.27:136][949]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.01.27:145][949]LogWorld: Bringing up level for play took: 0.067106
+[2016.03.07-22.01.27:147][949]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.01.27:147][949]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.03.07-22.01.27:176][949]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting 1.351
+[2016.03.07-22.01.27:183][949]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:01:27 AM)
+[2016.03.07-22.01.27:266][949]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.01.27:266][949]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.01.27:266][949]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.01.27:266][949]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.01.27:289][949]PIE: Info Play in editor start time for /Game/Levels/characterTesting 1.464
+[2016.03.07-22.01.27:296][949]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.01.27:297][949]LogNet: Open characterTesting 03/08/16 00:01:27 127.0.0.1
+[2016.03.07-22.01.27:297][949]LogNet: Added client connection.  Remote address = 127.0.0.1:51495
+[2016.03.07-22.01.27:297][949]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.01.27:297][949]LogNet: Remote platform little endian=1
+[2016.03.07-22.01.27:297][949]LogNet: This platform little endian=1
+[2016.03.07-22.01.27:297][949]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.01.27:314][950]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.01.27:316][950]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.01.27:317][950]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.01.27:354][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007C003E20
+[2016.03.07-22.01.27:358][950]Cmd: MEM
+[2016.03.07-22.01.27:397][950]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.01.27:397][950]LogMemory: Process Physical Memory: 1315.21 MB used, 1439.95 MB peak
+[2016.03.07-22.01.27:397][950]LogMemory: Process Virtual Memory: 2372.31 MB used, 2409.05 MB peak
+[2016.03.07-22.01.27:397][950]LogMemory: Physical Memory: 2995.71 MB used, 10231.49 MB total
+[2016.03.07-22.01.27:397][950]LogMemory: Virtual Memory: 3037.03 MB used, 8388608.00 MB total
+[2016.03.07-22.01.27:397][950]LogMemory: 
+[2016.03.07-22.01.27:397][950]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.01.27:621][950]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.01.27:622][950]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.01.27:676][950]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.01.27
+[2016.03.07-22.01.27:682][950]LogWorld: Bringing up level for play took: 0.059268
+[2016.03.07-22.01.27:707][951]LogNet: Client netspeed is 10000
+[2016.03.07-22.01.27:707][951]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.01.27:712][951]LogNet: Join succeeded: 265
+[2016.03.07-22.01.58:484][514]LogBlueprintUserMessages: [Weapon_Master_BP_C_24] Server: Reload!
+[2016.03.07-22.01.58:671][530]LogBlueprintUserMessages: [Weapon_Master_BP_C_24] Server: Reload!
+[2016.03.07-22.01.58:873][548]LogBlueprintUserMessages: [Weapon_Master_BP_C_24] Server: Reload!
+[2016.03.07-22.02.01:449][779]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_20. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.02.13:943][864]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_20. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.02.22:791][641]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_20. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.02.40:743][172]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_20. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.02.44:647][498]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.02.44:647][498]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:51495, Time: 2016.03.07-22.02.44
+[2016.03.07-22.02.44:647][498]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.03.07-22.02.44:647][498]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.02.44:647][498]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.02.44
+[2016.03.07-22.02.44:647][498]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.03.07-22.02.44:659][498]LogExit: GameNetDriver None shut down
+[2016.03.07-22.02.44:659][498]LogExit: GameNetDriver None shut down
+[2016.03.07-22.02.44:688][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000030E94E0
+[2016.03.07-22.02.44:688][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BF8F600
+[2016.03.07-22.02.57:598][857]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.04.00:204][507]BlueprintLog: New page: Compile Projectile
+[2016.03.07-22.04.00:291][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.03.07-22.04.00:331][507]BlueprintEditorCompileResults: Info [0682.25] Compile of Projectile successful! [in 127 ms]
+[2016.03.07-22.04.00:918][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.04.01:004][543]LogSavePackage: Save=79.995316ms
+[2016.03.07-22.04.01:004][543]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile8EDDA7DE42FBFDCCA421E283204F910E.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.04.01:006][543]LogSavePackage: Total save time: 86.756989ms
+[2016.03.07-22.04.01:006][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.04.02:702][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.04.02:708][707]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:04:02 AM)
+[2016.03.07-22.04.02:708][707]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.04.02:898][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190095s)
+[2016.03.07-22.04.02:899][707]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.04.02:900][707]LogPlayLevel: PIE: World Init took: (0.001804s)
+[2016.03.07-22.04.02:900][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.192318s)
+[2016.03.07-22.04.02:900][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.04.02:940][707]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.04.02:947][707]LogInit: FAudioDevice initialized.
+[2016.03.07-22.04.03:021][707]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.04.03:069][707]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.04.03
+[2016.03.07-22.04.03:069][707]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.04.03:069][707]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.04.03:074][707]LogWorld: Bringing up level for play took: 0.052519
+[2016.03.07-22.04.03:076][707]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.04.03:077][707]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2016.03.07-22.04.03:102][707]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting 1.276
+[2016.03.07-22.04.03:108][707]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:04:03 AM)
+[2016.03.07-22.04.03:183][707]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.04.03:183][707]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.04.03:184][707]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.04.03:184][707]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.04.03:208][707]PIE: Info Play in editor start time for /Game/Levels/characterTesting 1.382
+[2016.03.07-22.04.03:213][707]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.04.03:214][707]LogNet: Open characterTesting 03/08/16 00:04:03 127.0.0.1
+[2016.03.07-22.04.03:214][707]LogNet: Added client connection.  Remote address = 127.0.0.1:52966
+[2016.03.07-22.04.03:214][707]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.04.03:214][707]LogNet: Remote platform little endian=1
+[2016.03.07-22.04.03:214][707]LogNet: This platform little endian=1
+[2016.03.07-22.04.03:214][707]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.04.03:230][708]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.04.03:232][708]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.04.03:566][708]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.04.03:599][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000477EBC40
+[2016.03.07-22.04.03:602][708]Cmd: MEM
+[2016.03.07-22.04.03:634][708]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.04.03:634][708]LogMemory: Process Physical Memory: 1458.89 MB used, 1501.96 MB peak
+[2016.03.07-22.04.03:634][708]LogMemory: Process Virtual Memory: 2570.45 MB used, 2570.45 MB peak
+[2016.03.07-22.04.03:634][708]LogMemory: Physical Memory: 3071.00 MB used, 10231.49 MB total
+[2016.03.07-22.04.03:634][708]LogMemory: Virtual Memory: 3229.37 MB used, 8388608.00 MB total
+[2016.03.07-22.04.03:634][708]LogMemory: 
+[2016.03.07-22.04.03:634][708]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.04.03:820][708]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.04.03:821][708]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.04.03:869][708]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.04.03
+[2016.03.07-22.04.03:874][708]LogWorld: Bringing up level for play took: 0.052454
+[2016.03.07-22.04.03:894][709]LogNet: Client netspeed is 10000
+[2016.03.07-22.04.03:894][709]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.04.03:899][709]LogNet: Join succeeded: 267
+[2016.03.07-22.04.10:631][270]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.07-22.04.10:713][270]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.04.10:713][270]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:52966, Time: 2016.03.07-22.04.10
+[2016.03.07-22.04.10:713][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2016.03.07-22.04.10:713][270]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.04.10:713][270]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.04.10
+[2016.03.07-22.04.10:713][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2016.03.07-22.04.10:721][270]LogExit: GameNetDriver None shut down
+[2016.03.07-22.04.10:725][270]LogExit: GameNetDriver None shut down
+[2016.03.07-22.04.10:756][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059358860
+[2016.03.07-22.04.10:756][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002850DBC0
+[2016.03.07-22.04.45:658][199]BlueprintLog: New page: Compile Projectile
+[2016.03.07-22.04.45:746][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.04.45:787][199]BlueprintEditorCompileResults: Info [0727.71] Compile of Projectile successful! [in 128 ms]
+[2016.03.07-22.04.46:493][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.04.46:574][243]LogSavePackage: Save=75.393600ms
+[2016.03.07-22.04.46:574][243]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileC67531FD497BAEE7383548AC3B49D2D7.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.04.46:576][243]LogSavePackage: Total save time: 81.807967ms
+[2016.03.07-22.04.46:576][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.04.48:235][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.04.48:241][390]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:04:48 AM)
+[2016.03.07-22.04.48:241][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.04.48:431][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190421s)
+[2016.03.07-22.04.48:433][390]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.04.48:433][390]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2016.03.07-22.04.48:433][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.192862s)
+[2016.03.07-22.04.48:433][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.04.48:474][390]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.04.48:481][390]LogInit: FAudioDevice initialized.
+[2016.03.07-22.04.48:552][390]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.04.48:599][390]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.04.48
+[2016.03.07-22.04.48:599][390]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.04.48:599][390]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.04.48:605][390]LogWorld: Bringing up level for play took: 0.051605
+[2016.03.07-22.04.48:606][390]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.04.48:606][390]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2016.03.07-22.04.48:629][390]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting 0.803
+[2016.03.07-22.04.48:635][390]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:04:48 AM)
+[2016.03.07-22.04.48:711][390]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.04.48:711][390]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.04.48:712][390]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.04.48:712][390]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.04.48:733][390]PIE: Info Play in editor start time for /Game/Levels/characterTesting 0.907
+[2016.03.07-22.04.48:742][390]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.04.48:743][390]LogNet: Open characterTesting 03/08/16 00:04:48 127.0.0.1
+[2016.03.07-22.04.48:743][390]LogNet: Added client connection.  Remote address = 127.0.0.1:62455
+[2016.03.07-22.04.48:743][390]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.04.48:743][390]LogNet: Remote platform little endian=1
+[2016.03.07-22.04.48:743][390]LogNet: This platform little endian=1
+[2016.03.07-22.04.48:743][390]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.04.48:760][391]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.04.48:761][391]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.04.49:098][391]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.04.49:129][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A979EE0
+[2016.03.07-22.04.49:133][391]Cmd: MEM
+[2016.03.07-22.04.49:168][391]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.04.49:168][391]LogMemory: Process Physical Memory: 1509.55 MB used, 1557.70 MB peak
+[2016.03.07-22.04.49:168][391]LogMemory: Process Virtual Memory: 2627.02 MB used, 2676.14 MB peak
+[2016.03.07-22.04.49:168][391]LogMemory: Physical Memory: 3128.23 MB used, 10231.49 MB total
+[2016.03.07-22.04.49:168][391]LogMemory: Virtual Memory: 3287.99 MB used, 8388608.00 MB total
+[2016.03.07-22.04.49:168][391]LogMemory: 
+[2016.03.07-22.04.49:168][391]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.04.49:355][391]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.04.49:357][391]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.04.49:404][391]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.04.49
+[2016.03.07-22.04.49:409][391]LogWorld: Bringing up level for play took: 0.051796
+[2016.03.07-22.04.49:429][392]LogNet: Client netspeed is 10000
+[2016.03.07-22.04.49:429][392]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.04.49:434][392]LogNet: Join succeeded: 269
+[2016.03.07-22.04.54:917][829]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.07-22.04.55:004][829]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.04.55:004][829]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:62455, Time: 2016.03.07-22.04.55
+[2016.03.07-22.04.55:004][829]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2016.03.07-22.04.55:004][829]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.04.55:005][829]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.04.55
+[2016.03.07-22.04.55:005][829]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2016.03.07-22.04.55:016][829]LogExit: GameNetDriver None shut down
+[2016.03.07-22.04.55:016][829]LogExit: GameNetDriver None shut down
+[2016.03.07-22.04.55:045][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000073F068E0
+[2016.03.07-22.04.55:045][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BF8E700
+[2016.03.07-22.05.08:095][909]BlueprintLog: New page: Compile Projectile
+[2016.03.07-22.05.08:181][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.05.08:220][909]BlueprintEditorCompileResults: Info [0750.14] Compile of Projectile successful! [in 124 ms]
+[2016.03.07-22.05.08:755][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.05.08:837][938]LogSavePackage: Save=78.025665ms
+[2016.03.07-22.05.08:837][938]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileFAD6462B42AB5EDC5FAAC3A9B1F7264C.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.05.08:839][938]LogSavePackage: Total save time: 83.060686ms
+[2016.03.07-22.05.08:839][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.05.11:050][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.05.11:056][133]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:05:11 AM)
+[2016.03.07-22.05.11:056][133]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.05.11:244][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187778s)
+[2016.03.07-22.05.11:245][133]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.05.11:246][133]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2016.03.07-22.05.11:246][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.190138s)
+[2016.03.07-22.05.11:246][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.05.11:285][133]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.05.11:292][133]LogInit: FAudioDevice initialized.
+[2016.03.07-22.05.11:366][133]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.05.11:413][133]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.05.11
+[2016.03.07-22.05.11:413][133]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.05.11:413][133]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.05.11:419][133]LogWorld: Bringing up level for play took: 0.052127
+[2016.03.07-22.05.11:421][133]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.05.11:421][133]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2016.03.07-22.05.11:444][133]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.383
+[2016.03.07-22.05.11:450][133]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:05:11 AM)
+[2016.03.07-22.05.11:521][133]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.05.11:521][133]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.05.11:522][133]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.05.11:522][133]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.05.11:542][133]PIE: Info Play in editor start time for /Game/Levels/characterTesting -0.285
+[2016.03.07-22.05.11:549][133]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.05.11:549][133]LogNet: Open characterTesting 03/08/16 00:05:11 127.0.0.1
+[2016.03.07-22.05.11:549][133]LogNet: Added client connection.  Remote address = 127.0.0.1:59276
+[2016.03.07-22.05.11:549][133]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.05.11:549][133]LogNet: Remote platform little endian=1
+[2016.03.07-22.05.11:549][133]LogNet: This platform little endian=1
+[2016.03.07-22.05.11:549][133]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.05.11:565][134]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.05.11:566][134]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.05.11:902][134]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.05.11:934][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AE1B920
+[2016.03.07-22.05.11:937][134]Cmd: MEM
+[2016.03.07-22.05.11:970][134]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.05.11:970][134]LogMemory: Process Physical Memory: 1519.89 MB used, 1563.71 MB peak
+[2016.03.07-22.05.11:970][134]LogMemory: Process Virtual Memory: 2631.12 MB used, 2689.77 MB peak
+[2016.03.07-22.05.11:970][134]LogMemory: Physical Memory: 3149.43 MB used, 10231.49 MB total
+[2016.03.07-22.05.11:970][134]LogMemory: Virtual Memory: 3292.05 MB used, 8388608.00 MB total
+[2016.03.07-22.05.11:970][134]LogMemory: 
+[2016.03.07-22.05.11:970][134]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.05.12:161][134]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.05.12:163][134]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.05.12:211][134]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.05.12
+[2016.03.07-22.05.12:216][134]LogWorld: Bringing up level for play took: 0.052307
+[2016.03.07-22.05.12:234][135]LogNet: Client netspeed is 10000
+[2016.03.07-22.05.12:234][135]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.05.12:239][135]LogNet: Join succeeded: 271
+[2016.03.07-22.05.31:969][814]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.05.31:969][814]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:59276, Time: 2016.03.07-22.05.31
+[2016.03.07-22.05.31:969][814]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2016.03.07-22.05.31:969][814]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.05.31:969][814]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.05.31
+[2016.03.07-22.05.31:969][814]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2016.03.07-22.05.31:981][814]LogExit: GameNetDriver None shut down
+[2016.03.07-22.05.31:981][814]LogExit: GameNetDriver None shut down
+[2016.03.07-22.05.32:012][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000592127A0
+[2016.03.07-22.05.32:012][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A994E0
+[2016.03.07-22.06.39:450][216]LogRenderer: Reallocating scene render targets to support 1208x696 (Frame:57535).
+[2016.03.07-22.06.46:896][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.06.52:339][373]BlueprintLog: New page: Compile Projectile
+[2016.03.07-22.06.52:423][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.03.07-22.06.52:465][373]BlueprintEditorCompileResults: Info [0854.39] Compile of Projectile successful! [in 126 ms]
+[2016.03.07-22.06.53:284][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.06.53:370][418]LogSavePackage: Save=77.174782ms
+[2016.03.07-22.06.53:370][418]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/ProjectileFD45FAD3475BB5E5AD6AFB9603E90C35.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.06.53:372][418]LogSavePackage: Total save time: 86.818106ms
+[2016.03.07-22.06.53:372][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.06.55:300][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.06.55:305][602]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:06:55 AM)
+[2016.03.07-22.06.55:305][602]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.06.55:495][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190061s)
+[2016.03.07-22.06.55:497][602]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.06.55:497][602]LogPlayLevel: PIE: World Init took: (0.001856s)
+[2016.03.07-22.06.55:497][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.192369s)
+[2016.03.07-22.06.55:498][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.06.55:537][602]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.06.55:545][602]LogInit: FAudioDevice initialized.
+[2016.03.07-22.06.55:618][602]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.06.55:665][602]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.06.55
+[2016.03.07-22.06.55:665][602]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.06.55:665][602]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.06.55:671][602]LogWorld: Bringing up level for play took: 0.051913
+[2016.03.07-22.06.55:672][602]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.06.55:673][602]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 7777
+[2016.03.07-22.06.55:697][602]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.131
+[2016.03.07-22.06.55:703][602]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:06:55 AM)
+[2016.03.07-22.06.55:774][602]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.06.55:774][602]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.06.55:775][602]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.06.55:775][602]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.06.55:795][602]PIE: Info Play in editor start time for /Game/Levels/characterTesting -0.034
+[2016.03.07-22.06.55:800][602]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.06.55:800][602]LogNet: Open characterTesting 03/08/16 00:06:55 127.0.0.1
+[2016.03.07-22.06.55:800][602]LogNet: Added client connection.  Remote address = 127.0.0.1:62246
+[2016.03.07-22.06.55:800][602]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.06.55:800][602]LogNet: Remote platform little endian=1
+[2016.03.07-22.06.55:800][602]LogNet: This platform little endian=1
+[2016.03.07-22.06.55:800][602]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.06.55:817][603]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.06.55:818][603]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.06.56:153][603]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.06.56:185][603]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BE87B00
+[2016.03.07-22.06.56:188][603]Cmd: MEM
+[2016.03.07-22.06.56:222][603]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.06.56:222][603]LogMemory: Process Physical Memory: 1641.93 MB used, 1684.14 MB peak
+[2016.03.07-22.06.56:222][603]LogMemory: Process Virtual Memory: 2788.11 MB used, 2789.11 MB peak
+[2016.03.07-22.06.56:222][603]LogMemory: Physical Memory: 3289.86 MB used, 10231.49 MB total
+[2016.03.07-22.06.56:222][603]LogMemory: Virtual Memory: 3448.70 MB used, 8388608.00 MB total
+[2016.03.07-22.06.56:222][603]LogMemory: 
+[2016.03.07-22.06.56:222][603]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.06.56:410][603]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.06.56:412][603]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.06.56:460][603]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.06.56
+[2016.03.07-22.06.56:465][603]LogWorld: Bringing up level for play took: 0.052609
+[2016.03.07-22.06.56:484][604]LogNet: Client netspeed is 10000
+[2016.03.07-22.06.56:484][604]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.06.56:489][604]LogNet: Join succeeded: 273
+[2016.03.07-22.07.12:661][947]LogBlueprintUserMessages: [Weapon_Master_BP_C_48] Server: Reload!
+[2016.03.07-22.07.12:865][964]LogBlueprintUserMessages: [Weapon_Master_BP_C_48] Server: Reload!
+[2016.03.07-22.07.13:071][981]LogBlueprintUserMessages: [Weapon_Master_BP_C_48] Server: Reload!
+[2016.03.07-22.07.16:265][243]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.07.27:568][199]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.07.40:678][319]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.07.47:426][871]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.07.54:044][426]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.07.59:070][854]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.08.05:000][373]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.08.28:759][540]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.08.36:418][208]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.08.51:603][511]LogBlueprintUserMessages: [Weapon_Master_BP_C_48] Server: Reload!
+[2016.03.07-22.08.51:804][528]LogBlueprintUserMessages: [Weapon_Master_BP_C_48] Server: Reload!
+[2016.03.07-22.08.54:638][765]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.09.03:628][508]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_36. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.09.04:316][553]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.09.04:316][553]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:62246, Time: 2016.03.07-22.09.04
+[2016.03.07-22.09.04:316][553]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_17
+[2016.03.07-22.09.04:316][553]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.09.04:316][553]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.09.04
+[2016.03.07-22.09.04:316][553]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_16
+[2016.03.07-22.09.04:324][553]LogExit: GameNetDriver None shut down
+[2016.03.07-22.09.04:325][553]LogExit: GameNetDriver None shut down
+[2016.03.07-22.09.04:356][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B25FBB00
+[2016.03.07-22.09.04:356][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BF8CE00
+[2016.03.07-22.10.09:807][431]BlueprintLog: New page: Compile Weapon_Master_BP
+[2016.03.07-22.10.09:962][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.10.10:014][431]BlueprintEditorCompileResults: Info [1051.93] Compile of Weapon_Master_BP successful! [in 206 ms]
+[2016.03.07-22.10.10:576][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Weapons/Weapon_Master_BP" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Weapons/Weapon_Master_BP.uasset" SILENT=true
+[2016.03.07-22.10.10:833][460]LogSavePackage: Save=245.573593ms
+[2016.03.07-22.10.10:833][460]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Weapon_Master_BP686BC655436998AE683163A23824B881.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Weapons/Weapon_Master_BP.uasset'
+[2016.03.07-22.10.10:835][460]LogSavePackage: Total save time: 254.148278ms
+[2016.03.07-22.10.10:835][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Weapons/Weapon_Master_BP.uasset
+[2016.03.07-22.10.12:884][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.07-22.10.12:890][641]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:10:12 AM)
+[2016.03.07-22.10.12:890][641]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_characterTesting
+[2016.03.07-22.10.13:069][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.179380s)
+[2016.03.07-22.10.13:070][641]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.10.13:071][641]LogPlayLevel: PIE: World Init took: (0.001643s)
+[2016.03.07-22.10.13:071][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_1_characterTesting.characterTesting (0.181407s)
+[2016.03.07-22.10.13:112][641]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 8 channels at 48 kHz using 24 bits per sample (channel mask 0x63f)
+[2016.03.07-22.10.13:119][641]LogInit: FAudioDevice initialized.
+[2016.03.07-22.10.13:194][641]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.03.07-22.10.13:241][641]LogWorld: Bringing World /Game/Levels/UEDPIE_1_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.10.13
+[2016.03.07-22.10.13:241][641]LogActor:Warning: GameSession /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.10.13:242][641]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_1_characterTesting.characterTesting:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.07-22.10.13:247][641]LogWorld: Bringing up level for play took: 0.052414
+[2016.03.07-22.10.13:249][641]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.07-22.10.13:249][641]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 7777
+[2016.03.07-22.10.13:273][641]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_1_characterTesting -0.557
+[2016.03.07-22.10.13:278][641]PIE: New page: PIE session: characterTesting (Mar 8, 2016, 2:10:13 AM)
+[2016.03.07-22.10.13:360][641]LogNet: Browse: 127.0.0.1//Game/Levels/characterTesting
+[2016.03.07-22.10.13:361][641]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.07-22.10.13:361][641]LogNet: Game client on port 7777, rate 10000
+[2016.03.07-22.10.13:361][641]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.10.13:391][641]PIE: Info Play in editor start time for /Game/Levels/characterTesting -0.439
+[2016.03.07-22.10.13:398][641]LogNet: NotifyAcceptingConnection: Server characterTesting accept
+[2016.03.07-22.10.13:399][641]LogNet: Open characterTesting 03/08/16 00:10:13 127.0.0.1
+[2016.03.07-22.10.13:399][641]LogNet: Added client connection.  Remote address = 127.0.0.1:60045
+[2016.03.07-22.10.13:399][641]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_characterTesting.characterTesting: Accepted
+[2016.03.07-22.10.13:399][641]LogNet: Remote platform little endian=1
+[2016.03.07-22.10.13:399][641]LogNet: This platform little endian=1
+[2016.03.07-22.10.13:399][641]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: tps_arena, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 291234509
+[2016.03.07-22.10.13:419][642]LogNet: Login request: /Game/Levels/characterTesting userId: Invalid
+[2016.03.07-22.10.13:420][642]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_characterTesting, Game: /Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.03.07-22.10.13:756][642]LogLoad: LoadMap: 127.0.0.1//Game/Levels/UEDPIE_1_characterTesting?game=/Game/MasterBlueprints/Player/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.03.07-22.10.13:788][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005D3198A0
+[2016.03.07-22.10.13:791][642]Cmd: MEM
+[2016.03.07-22.10.13:825][642]LogMemory: Platform Memory Stats for Windows
+[2016.03.07-22.10.13:825][642]LogMemory: Process Physical Memory: 1800.55 MB used, 1849.01 MB peak
+[2016.03.07-22.10.13:825][642]LogMemory: Process Virtual Memory: 3040.86 MB used, 3040.86 MB peak
+[2016.03.07-22.10.13:825][642]LogMemory: Physical Memory: 3426.51 MB used, 10231.49 MB total
+[2016.03.07-22.10.13:825][642]LogMemory: Virtual Memory: 3684.00 MB used, 8388608.00 MB total
+[2016.03.07-22.10.13:825][642]LogMemory: 
+[2016.03.07-22.10.13:825][642]Allocator Stats for TBB: (not implemented)
+[2016.03.07-22.10.14:005][642]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/characterTesting.characterTesting to /Game/Levels/UEDPIE_2_characterTesting.characterTesting. OwningWorld: None
+[2016.03.07-22.10.14:006][642]LogAIModule: Creating AISystem for world characterTesting
+[2016.03.07-22.10.14:054][642]LogWorld: Bringing World /Game/Levels/UEDPIE_2_characterTesting.characterTesting up for play (max tick rate 0) at 2016.03.08-00.10.14
+[2016.03.07-22.10.14:060][642]LogWorld: Bringing up level for play took: 0.052389
+[2016.03.07-22.10.14:076][643]LogNet: Client netspeed is 10000
+[2016.03.07-22.10.14:076][643]LogNet: Join request: /Game/Levels/characterTesting?SplitscreenCount=1
+[2016.03.07-22.10.14:081][643]LogNet: Join succeeded: 275
+[2016.03.07-22.10.26:636][701]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.10.34:874][386]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.10.47:179][419]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.10.52:893][898]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.11.01:607][637]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.11.46:650][580]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.11.56:135][387]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor ThirdPersonCharacter_C_46. Function ServerReloadLookUp will not be processed.
+[2016.03.07-22.12.13:645][855]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.12.13:645][855]LogNet: UNetConnection::Close: Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:60045, Time: 2016.03.07-22.12.13
+[2016.03.07-22.12.13:645][855]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_19
+[2016.03.07-22.12.13:645][855]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.07-22.12.13:645][855]LogNet: UNetConnection::Close: Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.07-22.12.13
+[2016.03.07-22.12.13:645][855]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_18
+[2016.03.07-22.12.13:655][855]LogExit: GameNetDriver None shut down
+[2016.03.07-22.12.13:656][855]LogExit: GameNetDriver None shut down
+[2016.03.07-22.12.13:686][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047A8D120
+[2016.03.07-22.12.13:686][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B25FAAC0
+[2016.03.07-22.12.37:920][ 12]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2016.03.07-22.15.06:256][417]LogCascade: Quitting Cascade. FXSystem=0x00000000A17D6840
+[2016.03.07-22.23.48:662][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A17D6840
+[2016.03.07-22.23.48:666][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/characterTesting' took 0.038
+[2016.03.07-22.23.48:675][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MasterBlueprints/Projectiles/Projectile] ([1] browsable assets)...
+[2016.03.07-22.23.48:698][663]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MasterBlueprints/Projectiles/Projectile.Projectile]
+[2016.03.07-22.23.48:698][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/MasterBlueprints/Projectiles/Projectile]
+[2016.03.07-22.23.48:784][663]LogSavePackage: Save=78.680748ms
+[2016.03.07-22.23.48:784][663]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile_Auto108B9C17646BD5DA9BE56DA86E1C955FF.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Saved/Autosaves/Game/MasterBlueprints/Projectiles/Projectile_Auto1.uasset'
+[2016.03.07-22.23.48:787][663]LogSavePackage: Total save time: 88.070091ms
+[2016.03.07-22.23.48:787][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Saved/Autosaves/Game/MasterBlueprints/Projectiles/Projectile_Auto1.uasset
+[2016.03.07-22.23.48:787][663]LogFileHelpers: Auto-saving content packages took 0.120
+[2016.03.07-22.36.30:626][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.07-22.36.32:300][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MasterBlueprints/Projectiles/Projectile" FILE="../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset" SILENT=true
+[2016.03.07-22.36.32:376][166]LogSavePackage: Save=68.775757ms
+[2016.03.07-22.36.32:377][166]LogSavePackage: Moving '../../../../../../Projects/Unreal/TPS_Arena/Saved/Projectile111C056D4F07EE528A314AB4229FD1E2.tmp' to '../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset'
+[2016.03.07-22.36.32:378][166]LogSavePackage: Total save time: 77.209182ms
+[2016.03.07-22.36.32:378][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Projects/Unreal/TPS_Arena/Content/MasterBlueprints/Projectiles/Projectile.uasset
+[2016.03.07-22.36.32:589][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.07-22.36.32:658][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.07-22.36.32:712][166]LogCascade: Quitting Cascade. FXSystem=0x000000006B2C5760
+[2016.03.07-22.36.33:082][167]Cmd: QUIT_EDITOR
+[2016.03.07-22.36.33:674][167]LogExit: Preparing to exit.
+[2016.03.07-22.36.34:764][167]LogExit: Editor shut down
+[2016.03.07-22.36.34:764][167]LogExit: Transaction tracking system shut down
+[2016.03.07-22.36.34:769][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D9A2C00
+[2016.03.07-22.36.34:777][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002719B920
+[2016.03.07-22.36.34:778][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004480A3E0
+[2016.03.07-22.36.34:778][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004480A200
+[2016.03.07-22.36.34:778][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059B24E00
+[2016.03.07-22.36.34:778][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006717DC60
+[2016.03.07-22.36.34:779][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B6ADC60
+[2016.03.07-22.36.34:781][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B2C5760
+[2016.03.07-22.36.34:782][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000073F05E40
+[2016.03.07-22.36.34:783][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059A9AE80
+[2016.03.07-22.36.35:047][167]LogExit: Object subsystem successfully closed.
+[2016.03.07-22.36.35:063][167]LogD3D11RHI: Shutdown
+[2016.03.07-22.36.35:063][167]LogD3D11RHI: CleanupD3DDevice
+[2016.03.07-22.36.35:174][167]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module DistCurveEditor (204)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module Cascade (203)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.03.07-22.36.35:199][167]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.03.07-22.36.35:201][167]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.03.07-22.36.35:201][167]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.03.07-22.36.35:201][167]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.03.07-22.36.35:201][167]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.03.07-22.36.35:201][167]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.03.07-22.36.35:202][167]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.03.07-22.36.35:203][167]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.03.07-22.36.35:204][167]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.03.07-22.36.35:204][167]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.03.07-22.36.35:204][167]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.03.07-22.36.35:204][167]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.03.07-22.36.35:647][167]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.03.07-22.36.35:649][167]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.03.07-22.36.35:650][167]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.03.07-22.36.35:650][167]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.03.07-22.36.35:650][167]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.03.07-22.36.35:650][167]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.03.07-22.36.35:650][167]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.03.07-22.36.35:651][167]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.03.07-22.36.35:651][167]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.03.07-22.36.35:651][167]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.03.07-22.36.35:651][167]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.03.07-22.36.35:652][167]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.03.07-22.36.35:653][167]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.03.07-22.36.35:653][167]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.03.07-22.36.35:653][167]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.03.07-22.36.35:653][167]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.03.07-22.36.35:654][167]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.03.07-22.36.35:654][167]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.03.07-22.36.35:654][167]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.03.07-22.36.35:655][167]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.03.07-22.36.35:655][167]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.03.07-22.36.35:655][167]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.03.07-22.36.35:655][167]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.03.07-22.36.35:655][167]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.03.07-22.36.35:656][167]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.03.07-22.36.35:850][167]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.03.07-22.36.35:852][167]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.03.07-22.36.35:852][167]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.07-22.36.35:853][167]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.07-22.36.35:886][167]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.07-22.36.35:886][167]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.07-22.36.35:886][167]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.07-22.36.35:886][167]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.07-22.36.35:887][167]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.07-22.36.35:887][167]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.07-22.36.35:887][167]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.07-22.36.35:887][167]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.07-22.36.35:887][167]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.07-22.36.35:888][167]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.07-22.36.35:889][167]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.07-22.36.35:891][167]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.03.07-22.36.35:891][167]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.03.07-22.36.35:892][167]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.03.07-22.36.35:992][167]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.03.07-22.36.35:993][167]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.03.07-22.36.36:110][167]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.03.07-22.36.36:110][167]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.07-22.36.36:110][167]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.07-22.36.36:110][167]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.07-22.36.36:114][167]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.07-22.36.36:117][167]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.07-22.36.36:118][167]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.07-22.36.36:119][167]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.07-22.36.36:120][167]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.07-22.36.36:120][167]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.07-22.36.36:121][167]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.07-22.36.36:121][167]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.07-22.36.36:122][167]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.07-22.36.36:154][167]LogDerivedDataCache: Shutdown
+[2016.03.07-22.36.36:154][167]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.07-22.36.36:155][167]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.07-22.36.36:155][167]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.07-22.36.36:156][167]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.07-22.36.36:157][167]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.07-22.36.38:158][167]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.07-22.36.38:161][167]LogHMD: Oculus shutdown.
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.07-22.36.38:161][167]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.07-22.36.38:164][167]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.07-22.36.38:165][167]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.07-22.36.38:168][167]LogExit: Exiting.
+[2016.03.07-22.36.38:171][167]Log file closed, 03/08/16 00:36:38
